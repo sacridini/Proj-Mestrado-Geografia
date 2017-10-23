@@ -1,0 +1,27 @@
+\begin{thebibliography}{1}
+
+\bibitem{CASTIGLIONE}
+L.~H.~G. CASTIGLIONE.
+\newblock {\em \textbf{Epistemologia da geoinformação: uma análise
+  histórico-crítica.}}
+\newblock PhD thesis, Universidade Federal Fluminense - Instituto Brasileiro de
+  Informação em Ciência e Tecnologia., Niterói - Rio de Janeiro, 2009.
+
+\bibitem{CESIUM}
+CESIUM.
+\newblock {\em \textbf{Cesium.}}, 2016.
+\newblock https://cesiumjs.org/.
+
+\bibitem{DANIELS_etal11}
+ENTRIKIN J. N. RICHARDSON~D. DANIELS~S., DELYSER~D.
+\newblock {\em \textbf{Envisioning Landscapes, Making Worlds.}}
+\newblock Routledge, Abingdon, 2011.
+
+\bibitem{CAMARA_etal10}
+CÂMARA{,} G{.}{;} VINHAS{,} L{.}{;} QUEIROZ{,} G{.} R{.}{;} FERREIRA{,} K{.}
+  R{.}{;} MONTEIRO{,} A{.} M.{;} CARVALHO{,} M{.}{;}~CASANOVA{,} M{.}
+\newblock {\em \textbf{TerraLib{;} An open-source GIS library for large-scale
+  environmental and socio-economic applications.}}
+\newblock Springer, 2010.
+
+\end{thebibliography}

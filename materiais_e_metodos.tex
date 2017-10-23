@@ -1,0 +1,79 @@
+\chapter{Materiais e métodos}
+
+A construção de um SIG, assim como o ato de pensar a modelagem de dados é uma tarefa complexa, não somente pela sua característica intelectual abstrata, como também por sua complexidade técnica. 
+
+A longo da evolução computacional dos últimos 30 anos, o processamento e visualização de dados espaciais sofreram mudanças significativas no uso de algoritmos geoespaciais como vimos no capítulo anterior. A popularização de tais técnicas possibilitaram que sua implementação fosse realizada em diversas linguagens de programação, incluindo linguagens mais populares e de nível de abstração mais alto como Python. A compilação de algoritmos em bibliotecas voltadas para o processamento de dados espaciais como GDAL, Mapnik, SharpMap.Net, DotSpatial, Orfeo ToolBox, assim como a criação de interfaces de desenvolvimento a SIG consagrados como o ArcPy e o PyQGIS, possibilitaram que o desenvolvimento de sistemas de tratamento de dados georreferenciados fosse feito de forma mais prática, rápida e eficiente. 
+
+A consequência dessa evolução é a possibilidade de criação de softwares especialistas para determinados tipos de estudos ou serviços, sejam eles aplicativos \textit{closed} ou \textit{open source}. Pela natureza de código aberto dos projetos citados, a consequência é que parte dos projetos que envolvam tais bibliotecas também acabem sendo projetos \textit{open source}. Além disso, acabam sendo bastante utilizadas no meio acadêmico e dão a possibilidade que trabalhos como este possam ser realizados.
+
+Para este trabalho, houve uma escolha política pela priorização do uso de software livre. Esta escolha foi tomada primeiramente pela grande capacidade de uso dessas ferramentas por praticamente qualquer usuário com acesso mínimo a um computador básico e conexão a internet. Desprezando-se a complexa relação entre a interface gráfica e o usuário, o que por si só engloba algumas áreas de estudo do conhecimento humano, pode se dizer que a utilização de software livre na Geografia, assim como em toda a academia, facilita o processo de replicação. É importante lembrar que a escolha por ferramentas livres, principalmente no ato de fazer ciência em um contexto político e econômico como o caso brasileiro, se torna essencial quando possível. 
+
+O segundo motivo pela utilização de soluções livres se deu pela grande capacidade técnica dessas ferramentas, o que prova o grau de maturidade não somente de seus projetos, mas também da comunidade em relação a importância do uso e do suporte que tais aplicações necessitam. 
+
+Outra vantagem importante no uso dessas tecnologias é o alto grau de compatibilidade e integração que elas oferecem. Grande parte dos SIG e software de PDI (Processamento Digital de Imagens) proprietários atualmente resistem à ideia de liberar a documentação necessária para que seja facilitada a integração de ferramentas (extensões) e software externos a sua própria interface. Empresas como a ESRI, famosa pelo desenvolvimento do pacote ArcGIS prefere oferecer os recursos de integração de dados espaciais e armazenamento em banco de dados geográficos em parceria a softwares de natureza igualmente proprietária como o Microsoft SQL Server desenvolvido pela Microsoft. No entanto, justamente por não oferecer os recursos necessários para qualquer tipo de desenvolvedor externo, o software não oferece a possibilidade de integração total (leitura e escrita) com a extensão PostGIS, assim como para outros projetos. Este tipo de problema de compatibilidade ainda é bastante comum entre as ferramentas de geoprocessamento e sensoriamento remoto, já que grande parte do uso de softwares na área ainda se dá pela utilização de soluções proprietárias. No entanto, grande parte das ferramentas \textit{open source} da área e que vem sendo desenvolvidas nos últimos anos tem solucionado este grande problema. O aumento de compatibilidade e a integração, são características do desenvolvimento de ferramentas\textit{ open source} como um todo, e na área de geotecnologias não vem sendo diferente.
+
+Todas as ferramentas escolhidas para a realização deste trabalho possuem a vantagem de possuir uma grande quantidade de desenvolvedores competentes envolvidos e em constante atividade nos respectivos projetos. Além disso, são projetos que muitas vezes se complementam em seus avanços, facilitando a aplicação de novas soluções não somente em uma das partes, mas em todas as partes envolvidas. É importante ainda dizer que serão utilizadas as últimas versões dos softwares em questão, e que o lançamento de novas versões dos mesmos tende a ser mais rápida que as das soluções proprietárias, já que o desenvolvimento é descentralizado e constante.
+
+\section{Motivações técnicas para a utilização do PostGIS}
+
+A escolha pelo uso do PostGIS se deu também pelo fato da ferramenta possuir algumas características técnicas que não se encontram em opções proprietárias como o ArcSDE/Geodatabase da ESRI. Apesar de popularmente ser conhecido como um banco de dados espacial, o Geodatabase não pode ser classificado como um banco de dados, mas sim como uma ferramenta de gerenciamento.
+
+O PostGIS possui ainda como diferencial a forma com que o dado espacial é inserido e gerenciado, possuindo diferenças fundamentais das utilizadas pelas ferramentas distribuídas pela ESRI. O ArcSDE da ESRI gerencia na verdade todos os processos entre o cliente e o banco, armazenando os dados espaciais em formato genérico BLOB, o que faz com que o banco de dados seja utilizado através de suas funcionalidades mesmo não “entendendo” que o dado é na verdade espacial. De certa forma, o aplicativo desenvolvido por este trabalho cria uma interface com o banco de dados PostGIS de uma forma similar ao que o ArcSDE faz com o Microsoft SQL Server. Sendo assim, não podemos entender o Geodatabase como um banco de dados por sí só, mas uma interface de conexão com outros bancos que nem sempre reconhecem tipos de dados espaciais de forma nativa.
+
+Um banco de dados geográficos nativamente ativado consegue tratar o dado espacial armazenado de forma diferente de um dado comum. A vantagem disso é a possibilidade de se utilizar métodos de consulta, indexação e análise específicos para dados geográficos. Ou seja, o banco de dados geográficos entende que o dado armazenado possui uma localização, influenciando diretamente e principalmente nas consultas em SQL.
+
+Sendo assim, podemos listar algumas das vantagens e das desvantagens de se utilizar uma interface administrativa como o ArcSDE em relação a um DBMS geográfico, assim como a utilização de arquivos \textit{shapefile} como opção de armazenamento de dados geográficos: \\
+
+\textbf{Vantagens ao utilizar arquivos Shapefile:}
+
+	\begin{itemize}
+		\item É o tipo de arquivo mais utilizando na área geotecnológica. Possui ampla compatibilidade.
+		\item É um formato de arquivo relativamente fácil de se trabalhar, principalmente por iniciantes na área.
+	\end{itemize}
+		
+\textbf{Desvantagens dos arquivos Shapefile:}
+
+	\begin{itemize}
+		\item Não possui a capacidade de armazenar informações topológicas dos dados.
+		\item Não possui suporte para a criação de \textit{splines}. Sendo assim, feições mais suaves só podem ser representadas por polígonos, deixando o tamanho do arquivo muito maior que o normal, já que o número de pontos de conexão tende a aumentar de acordo com o maior detalhamento da escala.
+		\item Tanto os arquivos .shp como os .dbf não podem ultrapassar o tamanho de 2GB (231 bytes), uma média de 70 milhões de pontos.
+		\item Os arquivos .dbf baseados no antigo padrão dBase não permitem tabelas com mais que 255 colunas e com nomes limitados a apenas 10 caracteres. 
+		\item O arquivo .dbf possui ainda uma limitada quantidade de tipos de dado. O formato suporta apenas dados de tipo ponto flutuante (\textit{float}) com tamanho máximo de apenas 13 caracteres, números inteiros (\textit{integer}) de 9 caracteres, tipo data (date) com máximo de 8 caracteres e texto (\textit{text}) de apenas 254 caracteres.
+		\item Números de ponto flutuante (\textit{float}) podem conter erros de redundância, já que são na verdade armazenados como do tipo texto (\textit{text}).
+	\end{itemize}
+
+\textbf{Vantagens de se utilizar o Geodatabase:}
+
+	\begin{itemize}
+		\item Excelente integração com outros produtos ESRI
+		\item Boa performance
+		\item Controle de versões implementado nativamente
+	\end{itemize}
+
+\textbf{Desvantagens de se utilizar o Geodatabase:}
+
+	\begin{itemize}
+		\item Recuperar dados corrompidos pode ser complicado
+		\item A licença de uso é ligada ao banco de dados
+		\item Complicações ao acessar geometrias fora do ambiente de softwares desenvolvidos pela ESRI
+		\item A edição de dados espaciais por mais de um usuário ao mesmo tempo é possível apenas em sua versão mais sofisticada
+	\end{itemize}
+
+\textbf{Vantagens de se utilizar o PostGIS:}
+
+	\begin{itemize}
+		\item Capacidade de fácil integração a aplicações externas utilizando consultas SQL
+		\item Solução gratuita e de código livre
+		\item Utilização de formatos abertos
+		\item Excelente performance quando utilizado em conjunto a outras soluções geoespaciais como o QGIS e o Geoserver (ANDERSON \& DEOLIVEIRA, 2007)
+		\item Pode ser administrado utilizando ferramentas de backup, análise e restauração já bastante conhecidas e utilizadas na área de banco de dados.
+		\item A possibilidade de consultas utilizando SQL pode ser vantajosa caso a administração do banco seja feita por alguém que possua conhecimento técnico, mesmo que este conhecimento seja somente na administração de banco de dados convencionais.
+		\item A possibilidade de edição de dados espaciais por mais de um usuário ao mesmo tempo vem habilitada por padrão.
+	\end{itemize}
+
+\textbf{Desvantagens de se utilizar o PostGIS:}
+
+	\begin{itemize}
+		\item A necessidade da utilização da linguagem SQL pode ser uma desvantagem dependendo do conhecimento técnico da equipe que utilizará o sistema.
+		\item Apesar de existir opções externas, falta um sistema de controle de versões nativo.
+	\end{itemize}

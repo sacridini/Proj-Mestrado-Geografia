@@ -1,0 +1,141 @@
+% Setup
+\documentclass[12pt,a4paper,openany]{book} % Setup
+\usepackage[brazilian]{babel} % PT-BR
+\usepackage[utf8]{inputenc} % UTF-8
+\usepackage{graphicx} % graphics
+\usepackage{afterpage} % Pula para a próxima página
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{indentfirst} % Indentação dos parágrafos
+\usepackage{rotating} % Permite imagens em formato "Landscape"
+\usepackage{epstopdf}
+\usepackage{float}
+
+% Margem
+\usepackage[margin=1in,left=1in,includefoot]{geometry}
+
+% Header and Footer stuff
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyfoot[R]{ \thepage\ }
+\renewcommand{\footrulewidth}{1pt}
+% 
+
+% Code writing settings
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=C++,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+%
+
+% Info
+\title{A Utilização de Banco de Dados Geográficos pela Geografia Brasileira. Um Estudo sobre o Estado da Arte e a Aplicação de Tecnologias Integradas à um Estudo de Caso na Bacia Hidrográfica do Rio São João - RJ}
+\author{Eduardo Ribeiro Lacerda}
+\date{2016}
+
+\begin{document}
+	
+	% Title
+	\begin{titlepage}
+		
+		\begin{center}
+			\textsc{\large Universidade Federal do Rio de Janeiro} \\
+			\textsc{\large Centro de Ciências Matemáticas e da Natureza} \\
+			\textsc{\large Instituto de Geociências} \\
+			\textsc{\large Departamento de Geografia} \\
+			% \line(1,0){400} \\
+			[7.2cm]
+		\end{center}
+		\Large{A Utilização de Banco de Dados Geográficos pela Geografia Brasileira. Um Estudo sobre o Estado da Arte e a Aplicação de Tecnologias Integradas à um Estudo de Caso na Bacia Hidrográfica do Rio São João - RJ} \\
+		[6cm] \\
+		% \line(1,0){400} \\
+		\begin{flushright}
+			\textsc{\large Eduardo Ribeiro Lacerda \\}
+		\end{flushright} 
+	\end{titlepage}
+	
+	% \begin{titlepage}
+	% 	\maketitle
+	% \end{titlepage}
+	
+	\newpage
+	\begin{center}
+		\vspace*{\fill}
+		"O tempo que você gosta de perder, não é tempo perdido" \\ 
+		% $ P \neq NP $ \\ 
+		[12cm]
+	\end{center}
+	
+	\newpage
+	\begin{center}
+		\vspace*{\fill}
+		$ P \neq NP $ \\ 
+		[12cm]
+	\end{center}
+
+	\tableofcontents
+	\listoffigures
+	\listoftables
+	
+	\newpage
+	\begin{center}
+		\textbf{\LARGE Resumo}
+	\end{center}
+	
+	\begin{quote}
+		O fazer científico\cite{CASTIGLIONE} dito moderno tem se transmutado em atividades cada vez menos compartimentadas, tendo como consequência a possibilidade de realizar estudos cada vez mais conjuntivos. A Geografia brasileira não é exceção dentro deste processo, tendo inclusive um posicionamento privilegiado sobre os questionamentos epistemológicos inevitáveis no qual\cite{DANIELS_etal11} toda a ciência começa a fazer com mais intensidade a cada nova década. Por ter sido historicamente uma das ciências consideradas de transição, o questionamento epistemológico sempre esteve muito presente no pensamento geográfico, o que\cite{CAMARA_etal10} acabou\cite{CESIUM}, de certa forma, facilitando este processo de “(re)descobrimento” do fazer científico.
+	10	Este trabalho analisa como o desenvolvimento de novas técnicas computacionais e suas possibilidades de aplicação na pesquisa geográfica sempre estiveram diretamente ligadas às noções epistemológicas, muitas vezes relacionadas diretamente com o estado do pensamento geográfico brasileiro. Busca-se entender como e porque muitas das técnicas e das ideias mais recentes em vigência no mundo científico, possuem dificuldade de serem, de fato, implementadas e popularizadas entre Geógrafos brasileiros. 
+		A partir desta análise busca-se então desenvolver meios computacionais através da criação de um sistema de informação geográfico (SIG) educativo visando com que essa distância seja diminuída e que as dificuldades naturais encontradas entre momentos de quebra de paradigmas no fazer científico como o atual seja realizada de forma mais amena. 
+		Todo o processo de desenvolvimento do SIG é acompanhado de uma extensa discussão sobre o estado da arte dos bancos de dados geográficos e sobre uma possível aplicação do sistema criado em um estudo de caso na Bacia Hidrográfica do Rio São João (BHRSJ) no Estado do Rio de Janeiro como possibilidade de estruturação de uma ferramenta educativa e também de planejamento.
+	\end{quote}
+
+
+	\newpage
+	\begin{center}
+		\textbf{\LARGE Abstract}
+	\end{center}
+	\begin{quote}
+		The modern scientific approach has been transmuted into activities less and less compartmentalized, with the possibility and a consequence of carrying out more and more conjunctive studies. Brazilian geography is no exception within this process, having even a priviledge position on the inevitable epistemological questions in which all science begins to do more intensively with each new decade. Because it was historically one of the transitional sciences, epistemological questioning has always been very present in geographic thought, which has, in a way, facilitated this process of "(re)-discovery" of science making.
+		This work analyzes how the development of new computational techniques and their possibilities of application in geographic research have always been directly linked to epistemological notions, often directly related to the state of Brazilian geographic thought. It is sought to understand how and why many of the most recent techniques and ideas in use in the scientific world are difficult to be implemented and popularize among Brazilian Geographers.
+		From this analysis it is sought to develop computational means through the creation of an educational geographic information system (GIS) in order to reduce this distance and the natural difficulties encountered between moments of paradigm shift in scientific making as the current one performed in a more enjoyable way.
+		The entire GIS development process is accompanied by an extensive discussion on the state of the art of the geographic databases and a possible application of the system created in a case of study in the São João River Bacin in the State of Rio de Janeiro as the possibility if structuring an educational tool and also of planning.
+	\end{quote}
+
+	\part{Apresentação do tema}
+	\input{intro}
+	\input{area_estudo}
+	
+	\part{Revisão Bibliográfica}
+	\input{pesq_operacional}
+	
+	\part{Metodologia}
+	\input{materiais_e_metodos}
+	
+	\part{Resultados e Considerações Finais}
+	\input{resultados}
+	
+	\bibliographystyle{plain}
+	\bibliography{referencias}
+	
+\end{document}
