@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  23 OCT 2017 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  30 OCT 2017 22:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -688,7 +688,7 @@ Package pdftex.def Info: C:/Users/eduardo/Documents/Data/Mestrado/BHRSJ.jpg use
 d on input line 6.
 (pdftex.def)             Requested size: 452.9679pt x 312.10301pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
@@ -699,10 +699,10 @@ File: C:/Users/eduardo/Documents/Data/Mestrado/BHRSJ_2.jpg Graphic file (type j
 pg)
  <use C:/Users/eduardo/Documents/Data/Mestrado/BHRSJ_2.jpg>
 Package pdftex.def Info: C:/Users/eduardo/Documents/Data/Mestrado/BHRSJ_2.jpg u
-sed on input line 14.
+sed on input line 15.
 (pdftex.def)             Requested size: 452.9679pt x 305.91882pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 18--128
+Underfull \hbox (badness 10000) in paragraph at lines 19--128
 
  []
 
@@ -713,15 +713,15 @@ do/Documents/Data/Mestrado/BHRSJ_2.jpg>] [18
 
 ] (pesq_operacional.tex
 Cap\'{\i }tulo 3.
-[19
 
-]
-Overfull \hbox (3.05792pt too wide) in paragraph at lines 14--15
+Overfull \hbox (3.05792pt too wide) in paragraph at lines 10--11
 \OT1/cmr/m/n/12 Tenta mos-trar tambem como a in-flu^encia do de-sen-vol-vi-men
 to do pen-sa-mento ge-os-sist^emico
  []
 
-[20]
+[19
+
+] [20]
 Cap\'{\i }tulo 4.
 [21
 
@@ -745,10 +745,7 @@ File: data/blue_marble.png Graphic file (type png)
 <use data/blue_marble.png>
 Package pdftex.def Info: data/blue_marble.png used on input line 91.
 (pdftex.def)             Requested size: 407.66833pt x 407.68369pt.
- [30 <./data/blue_marble.png>] [31] [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33]
+ [30 <./data/blue_marble.png>] [31] [32] [33]
 [34] [35]
 <data/paradigma_quatro_universos.png, id=124, 469.755pt x 106.9596pt>
 File: data/paradigma_quatro_universos.png Graphic file (type png)
@@ -777,12 +774,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
-
+[36 <./data/paradigma_quatro_universos.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
-[36 <./data/paradigma_quatro_universos.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
@@ -804,21 +801,14 @@ File: data/geocampos.png Graphic file (type png)
 <use data/geocampos.png>
 Package pdftex.def Info: data/geocampos.png used on input line 231.
 (pdftex.def)             Requested size: 452.9679pt x 90.59334pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<data/geoobjetos.png, id=138, 319.4334pt x 231.264pt>
+ [39 <./data/omtg_classes.png>]
+<data/geoobjetos.png, id=142, 319.4334pt x 231.264pt>
 File: data/geoobjetos.png Graphic file (type png)
 
 <use data/geoobjetos.png>
 Package pdftex.def Info: data/geoobjetos.png used on input line 238.
 (pdftex.def)             Requested size: 407.66833pt x 295.16646pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39 <./data/omtg_classes.png>]
 <data/relacionamentos.png, id=143, 444.2196pt x 181.6386pt>
 File: data/relacionamentos.png Graphic file (type png)
 
@@ -829,20 +819,14 @@ Package pdftex.def Info: data/relacionamentos.png used on input line 249.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<data/cardinalidade.png, id=144, 364.2408pt x 160.9212pt>
+[40 <./data/geocampos.png> <./data/geoobjetos.png>]
+<data/cardinalidade.png, id=149, 364.2408pt x 160.9212pt>
 File: data/cardinalidade.png Graphic file (type png)
 
 <use data/cardinalidade.png>
 Package pdftex.def Info: data/cardinalidade.png used on input line 260.
 (pdftex.def)             Requested size: 452.9679pt x 200.13199pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \vbox (badness 1107) has occurred while \output is active []
-
- [40 <./data/geocampos.png> <./data/geoobjetos.png>]
 <data/relac_topologicos.png, id=150, 469.755pt x 275.1078pt>
 File: data/relac_topologicos.png Graphic file (type png)
 
@@ -853,59 +837,52 @@ Package pdftex.def Info: data/relac_topologicos.png used on input line 271.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<data/generalizacao_especializacao.png, id=151, 443.256pt x 133.9404pt>
+[41 <./data/relacionamentos.png> <./data/cardinalidade.png>]
+<data/generalizacao_especializacao.png, id=156, 443.256pt x 133.9404pt>
 File: data/generalizacao_especializacao.png Graphic file (type png)
 
 <use data/generalizacao_especializacao.png>
 Package pdftex.def Info: data/generalizacao_especializacao.png used on input li
 ne 282.
 (pdftex.def)             Requested size: 452.9679pt x 136.8749pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[41 <./data/relacionamentos.png> <./data/cardinalidade.png>]
-<data/agregacao_espacial.png, id=157, 307.3884pt x 53.4798pt>
+ [42 <./data/relac_topologicos.png> <./data/generalizacao_especializacao.png>]
+<data/agregacao_espacial.png, id=162, 307.3884pt x 53.4798pt>
 File: data/agregacao_espacial.png Graphic file (type png)
 
 <use data/agregacao_espacial.png>
 Package pdftex.def Info: data/agregacao_espacial.png used on input line 291.
 (pdftex.def)             Requested size: 452.9679pt x 78.811pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[42 <./data/relac_topologicos.png>] [43 <./data/generalizacao_especializacao.pn
-g> <./data/agregacao_espacial.png>]
-<data/requisitos_SGBD.png, id=168, 469.755pt x 328.5876pt>
+ [43 <./data/agregacao_espacial.png>] [44]
+<data/requisitos_SGBD.png, id=171, 469.755pt x 328.5876pt>
 File: data/requisitos_SGBD.png Graphic file (type png)
 
 <use data/requisitos_SGBD.png>
 Package pdftex.def Info: data/requisitos_SGBD.png used on input line 328.
 (pdftex.def)             Requested size: 452.9679pt x 316.84438pt.
 
-<data/princ_tec_SGBD_1.png, id=169, 469.755pt x 154.176pt>
+<data/princ_tec_SGBD_1.png, id=172, 469.755pt x 154.176pt>
 File: data/princ_tec_SGBD_1.png Graphic file (type png)
 
 <use data/princ_tec_SGBD_1.png>
 Package pdftex.def Info: data/princ_tec_SGBD_1.png used on input line 336.
 (pdftex.def)             Requested size: 452.9679pt x 148.66595pt.
 
-<data/princ_tec_SGBD_2.png, id=170, 469.755pt x 161.403pt>
+<data/princ_tec_SGBD_2.png, id=173, 469.755pt x 161.403pt>
 File: data/princ_tec_SGBD_2.png Graphic file (type png)
 
 <use data/princ_tec_SGBD_2.png>
 Package pdftex.def Info: data/princ_tec_SGBD_2.png used on input line 343.
 (pdftex.def)             Requested size: 452.9679pt x 155.6347pt.
- [44] [45 <./data/requisitos_SGBD.png> <./data/princ_tec_SGBD_1.png>] <data/sql
-_history.png, id=179, 469.755pt x 279.444pt>
+ [45 <./data/requisitos_SGBD.png>] [46 <./data/princ_tec_SGBD_1.png> <./data/pr
+inc_tec_SGBD_2.png>]
+<data/sql_history.png, id=183, 469.755pt x 279.444pt>
 File: data/sql_history.png Graphic file (type png)
 
 <use data/sql_history.png>
 Package pdftex.def Info: data/sql_history.png used on input line 358.
 (pdftex.def)             Requested size: 452.9679pt x 269.45709pt.
- [46 <./data/princ_tec_SGBD_2.png>] [47 <./data/sql_history.png>] <data/comando
-s_sql.png, id=188, 466.8642pt x 251.4996pt>
+ [47 <./data/sql_history.png>] [48]
+<data/comandos_sql.png, id=191, 466.8642pt x 251.4996pt>
 File: data/comandos_sql.png Graphic file (type png)
 
 <use data/comandos_sql.png>
@@ -914,8 +891,8 @@ Package pdftex.def Info: data/comandos_sql.png used on input line 401.
 
 Underfull \vbox (badness 3849) has occurred while \output is active []
 
- [48]
-<data/arquitetura_dua_integrada.png, id=193, 469.755pt x 213.4374pt>
+ [49]
+<data/arquitetura_dua_integrada.png, id=197, 469.755pt x 213.4374pt>
 File: data/arquitetura_dua_integrada.png Graphic file (type png)
 
 <use data/arquitetura_dua_integrada.png>
@@ -949,7 +926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--433
 
  []
 
-[49 <./data/comandos_sql.png>]
+[50 <./data/comandos_sql.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 434--436
 
  []
@@ -957,28 +934,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--436
 
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
- [50 <./data/arquitetura_dua_integrada.png>]
-<data/sfs-sql.png, id=203, 469.755pt x 249.0906pt>
+ [51 <./data/arquitetura_dua_integrada.png>]
+<data/sfs-sql.png, id=206, 469.755pt x 249.0906pt>
 File: data/sfs-sql.png Graphic file (type png)
  <use data/sfs-sql.png>
 Package pdftex.def Info: data/sfs-sql.png used on input line 448.
 (pdftex.def)             Requested size: 452.9679pt x 240.18848pt.
 
-[51 <./data/sfs-sql.png>] <data/arvore_r.png, id=208, 469.755pt x 251.4996pt>
+[52 <./data/sfs-sql.png>] <data/arvore_r.png, id=211, 469.755pt x 251.4996pt>
 File: data/arvore_r.png Graphic file (type png)
 
 <use data/arvore_r.png>
 Package pdftex.def Info: data/arvore_r.png used on input line 478.
 (pdftex.def)             Requested size: 452.9679pt x 242.51138pt.
- [52 <./data/arvore_r.png>] [53] [54]
-<data/pedido-resposta.png, id=219, 426.8748pt x 133.4586pt>
+ [53 <./data/arvore_r.png>] [54] [55]
+<data/pedido-resposta.png, id=223, 426.8748pt x 133.4586pt>
 File: data/pedido-resposta.png Graphic file (type png)
 
 <use data/pedido-resposta.png>
 Package pdftex.def Info: data/pedido-resposta.png used on input line 511.
 (pdftex.def)             Requested size: 452.9679pt x 141.62631pt.
- [55] [56 <./data/pedido-resposta.png>] [57]
-[58] <data/sigweb_developer_side.png, id=234, 405.1938pt x 268.8444pt>
+ [56] [57 <./data/pedido-resposta.png>] [58]
+[59] <data/sigweb_developer_side.png, id=237, 405.1938pt x 268.8444pt>
 File: data/sigweb_developer_side.png Graphic file (type png)
 
 <use data/sigweb_developer_side.png>
@@ -986,95 +963,92 @@ Package pdftex.def Info: data/sigweb_developer_side.png used on input line 564.
 
 (pdftex.def)             Requested size: 452.9679pt x 300.54578pt.
 
-<data/sigweb_cartografico_side.png, id=235, 404.2302pt x 299.1978pt>
+<data/sigweb_cartografico_side.png, id=238, 404.2302pt x 299.1978pt>
 File: data/sigweb_cartografico_side.png Graphic file (type png)
 
 <use data/sigweb_cartografico_side.png>
 Package pdftex.def Info: data/sigweb_cartografico_side.png used on input line 5
 71.
 (pdftex.def)             Requested size: 452.9679pt x 335.27728pt.
- [59 <./data/sigweb_developer_side.png>] [60 <./data/sigweb_cartografico_side.p
+ [60 <./data/sigweb_developer_side.png>] [61 <./data/sigweb_cartografico_side.p
 ng>]
-<data/ranking_github.png, id=244, 468.7914pt x 269.808pt>
+<data/ranking_github.png, id=248, 468.7914pt x 269.808pt>
 File: data/ranking_github.png Graphic file (type png)
 
 <use data/ranking_github.png>
 Package pdftex.def Info: data/ranking_github.png used on input line 584.
 (pdftex.def)             Requested size: 452.9679pt x 260.70479pt.
-
-Underfull \vbox (badness 4254) has occurred while \output is active []
-
- [61 <./data/ranking_github.png>] [62]
-<data/prerequisitos_mapping_servers.png, id=253, 469.755pt x 131.5314pt>
+ [62 <./data/ranking_github.png>] [63]
+<data/prerequisitos_mapping_servers.png, id=256, 469.755pt x 131.5314pt>
 File: data/prerequisitos_mapping_servers.png Graphic file (type png)
 
 <use data/prerequisitos_mapping_servers.png>
 Package pdftex.def Info: data/prerequisitos_mapping_servers.png used on input l
 ine 623.
 (pdftex.def)             Requested size: 452.9679pt x 126.83066pt.
- [63]
-<data/geoserver_gui.png, id=257, 469.755pt x 274.626pt>
+ [64]
+<data/geoserver_gui.png, id=260, 469.755pt x 274.626pt>
 File: data/geoserver_gui.png Graphic file (type png)
 
 <use data/geoserver_gui.png>
 Package pdftex.def Info: data/geoserver_gui.png used on input line 668.
 (pdftex.def)             Requested size: 452.9679pt x 264.81128pt.
 
-<data/suporte_webservices.png, id=258, 469.755pt x 151.767pt>
+<data/suporte_webservices.png, id=261, 469.755pt x 151.767pt>
 File: data/suporte_webservices.png Graphic file (type png)
 
 <use data/suporte_webservices.png>
 Package pdftex.def Info: data/suporte_webservices.png used on input line 677.
 (pdftex.def)             Requested size: 452.9679pt x 146.34306pt.
- [64 <./data/prerequisitos_mapping_servers.png>] [65] [66 <./data/geoserver_gui
+ [65 <./data/prerequisitos_mapping_servers.png>] [66] [67 <./data/geoserver_gui
 .png> <./data/suporte_webservices.png>]
-<data/compatibilidade_formatos.png, id=271, 469.755pt x 244.7544pt>
+<data/compatibilidade_formatos.png, id=275, 469.755pt x 244.7544pt>
 File: data/compatibilidade_formatos.png Graphic file (type png)
 
 <use data/compatibilidade_formatos.png>
 Package pdftex.def Info: data/compatibilidade_formatos.png used on input line 6
 90.
 (pdftex.def)             Requested size: 452.9679pt x 236.00723pt.
- [67] [68 <./data/compatibilidade_formatos.png>] <data/openlayers.png, id=280, 
+ [68] [69 <./data/compatibilidade_formatos.png>] <data/openlayers.png, id=283, 
 469.755pt x 183.5658pt>
 File: data/openlayers.png Graphic file (type png)
 
 <use data/openlayers.png>
 Package pdftex.def Info: data/openlayers.png used on input line 709.
 (pdftex.def)             Requested size: 452.9679pt x 177.00542pt.
- [69 <./data/openlayers.png>]) [70] [71
+ [70 <./data/openlayers.png>]) [71] [72
 
 ]
 (materiais_e_metodos.tex
 Cap\'{\i }tulo 7.
-[72
+[73
 
-] [73]
+] [74]
 Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
-[74]) [75] [76
+[75]) [76] [77
 
 ] (resultados.tex
 Cap\'{\i }tulo 8.
-[77
+[78
 
-] <data/modelo_OMT-G_final.png, id=310, 649.4664pt x 371.4678pt>
+] <data/modelo_OMT-G_final.png, id=313, 649.4664pt x 371.4678pt>
 File: data/modelo_OMT-G_final.png Graphic file (type png)
 
 <use data/modelo_OMT-G_final.png>
 Package pdftex.def Info: data/modelo_OMT-G_final.png used on input line 16.
 (pdftex.def)             Requested size: 670.50687pt x 383.51733pt.
- [78] [79 <./data/modelo_OMT-G_final.png>]
-<data/pgAdmin-gui.png, id=319, 469.755pt x 279.9258pt>
+ [79] [80 <./data/modelo_OMT-G_final.png>]
+<data/pgAdmin-gui.png, id=322, 469.755pt x 279.9258pt>
 File: data/pgAdmin-gui.png Graphic file (type png)
 
 <use data/pgAdmin-gui.png>
 Package pdftex.def Info: data/pgAdmin-gui.png used on input line 28.
 (pdftex.def)             Requested size: 452.9679pt x 269.92168pt.
 
-<data/newdb_pgadmin.png, id=320, 347.8596pt x 362.3136pt>
+<data/newdb_pgadmin.png, id=323, 347.8596pt x 362.3136pt>
 File: data/newdb_pgadmin.png Graphic file (type png)
 
 <use data/newdb_pgadmin.png>
@@ -1088,14 +1062,14 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 44--70
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80
+ [81
 
  <./data/pgAdmin-gui.png>]
 Overfull \vbox (2.64896pt too high) has occurred while \output is active []
 
 
-[81 <./data/newdb_pgadmin.png>]
-<data/create_extension_postgis.png, id=329, 469.755pt x 313.6518pt>
+[82 <./data/newdb_pgadmin.png>]
+<data/create_extension_postgis.png, id=332, 469.755pt x 313.6518pt>
 File: data/create_extension_postgis.png Graphic file (type png)
 
 <use data/create_extension_postgis.png>
@@ -1103,42 +1077,42 @@ Package pdftex.def Info: data/create_extension_postgis.png used on input line 7
 5.
 (pdftex.def)             Requested size: 452.9679pt x 302.44235pt.
 
-<data/shapefile_loader.png, id=330, 394.1124pt x 93.4692pt>
+<data/shapefile_loader.png, id=333, 394.1124pt x 93.4692pt>
 File: data/shapefile_loader.png Graphic file (type png)
 
 <use data/shapefile_loader.png>
 Package pdftex.def Info: data/shapefile_loader.png used on input line 88.
 (pdftex.def)             Requested size: 452.9679pt x 107.43169pt.
- [82 <./data/create_extension_postgis.png>]
-<data/shapefile_loader_gui.png, id=335, 469.755pt x 412.4208pt>
+ [83 <./data/create_extension_postgis.png>]
+<data/shapefile_loader_gui.png, id=338, 469.755pt x 412.4208pt>
 File: data/shapefile_loader_gui.png Graphic file (type png)
 
 <use data/shapefile_loader_gui.png>
 Package pdftex.def Info: data/shapefile_loader_gui.png used on input line 103.
 (pdftex.def)             Requested size: 452.9679pt x 397.6815pt.
 
-<data/import_config.png, id=336, 375.804pt x 239.4546pt>
+<data/import_config.png, id=339, 375.804pt x 239.4546pt>
 File: data/import_config.png Graphic file (type png)
 
 <use data/import_config.png>
 Package pdftex.def Info: data/import_config.png used on input line 110.
 (pdftex.def)             Requested size: 452.9679pt x 288.63751pt.
 
-<data/estrutura_opensource.png, id=337, 469.755pt x 273.1806pt>
+<data/estrutura_opensource.png, id=340, 469.755pt x 273.1806pt>
 File: data/estrutura_opensource.png Graphic file (type png)
 
 <use data/estrutura_opensource.png>
 Package pdftex.def Info: data/estrutura_opensource.png used on input line 121.
 (pdftex.def)             Requested size: 452.9679pt x 263.41753pt.
- [83 <./data/shapefile_loader.png>] [84 <./data/shapefile_loader_gui.png>] [85 
+ [84 <./data/shapefile_loader.png>] [85 <./data/shapefile_loader_gui.png>] [86 
 <./data/import_config.png> <./data/estrutura_opensource.png>] <data/diagrama.pn
-g, id=352, 452.892pt x 329.0694pt>
+g, id=355, 452.892pt x 329.0694pt>
 File: data/diagrama.png Graphic file (type png)
 
 <use data/diagrama.png>
 Package pdftex.def Info: data/diagrama.png used on input line 132.
 (pdftex.def)             Requested size: 452.9679pt x 329.13383pt.
- <data/qgis_gui.png, id=353, 469.755pt x 276.5532pt>
+ <data/qgis_gui.png, id=356, 469.755pt x 276.5532pt>
 File: data/qgis_gui.png Graphic file (type png)
 
 <use data/qgis_gui.png>
@@ -1147,83 +1121,229 @@ Package pdftex.def Info: data/qgis_gui.png used on input line 140.
 
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
- [86 <./data/diagrama.png>]
+ [87 <./data/diagrama.png>]
 Underfull \vbox (badness 2376) has occurred while \output is active []
 
- [87 <./data/qgis_gui.png>]
+ [88 <./data/qgis_gui.png>]
 Overfull \hbox (2.46626pt too wide) in paragraph at lines 155--156
 []\OT1/cmr/m/n/12 Na area ge-o-es-pa-cial, al-gu-mas fer-ra-men-tas im-por-tan
 -tes fo-ram de-sen-vol-vi-das nos ultimos
  []
 
-<data/espacoGIS_logo.png, id=362, 468.7914pt x 172.4844pt>
+<data/espacoGIS_logo.png, id=365, 468.7914pt x 172.4844pt>
 File: data/espacoGIS_logo.png Graphic file (type png)
 
 <use data/espacoGIS_logo.png>
 Package pdftex.def Info: data/espacoGIS_logo.png used on input line 165.
 (pdftex.def)             Requested size: 452.9679pt x 166.66484pt.
- [88]
-<data/espacoGIS_gui.png, id=366, 469.755pt x 276.5532pt>
+ [89]
+<data/espacoGIS_gui.png, id=369, 469.755pt x 276.5532pt>
 File: data/espacoGIS_gui.png Graphic file (type png)
 
 <use data/espacoGIS_gui.png>
 Package pdftex.def Info: data/espacoGIS_gui.png used on input line 174.
 (pdftex.def)             Requested size: 362.37569pt x 213.33484pt.
 
-<data/postnet_gui.png, id=367, 469.755pt x 389.2944pt>
+<data/postnet_gui.png, id=370, 469.755pt x 389.2944pt>
 File: data/postnet_gui.png Graphic file (type png)
 
 <use data/postnet_gui.png>
 Package pdftex.def Info: data/postnet_gui.png used on input line 181.
 (pdftex.def)             Requested size: 452.9679pt x 375.3816pt.
- <data/mdi_gui.png, id=368, 468.7914pt x 248.127pt>
+ <data/mdi_gui.png, id=371, 468.7914pt x 248.127pt>
 File: data/mdi_gui.png Graphic file (type png)
 
 <use data/mdi_gui.png>
 Package pdftex.def Info: data/mdi_gui.png used on input line 188.
 (pdftex.def)             Requested size: 452.9679pt x 239.75528pt.
- [89 <./data/espacoGIS_logo.png> <./data/espacoGIS_gui.png>] [90 <./data/postne
+ [90 <./data/espacoGIS_logo.png> <./data/espacoGIS_gui.png>] [91 <./data/postne
 t_gui.png>]
-<data/sig_gui.png, id=378, 469.755pt x 274.626pt>
+<data/sig_gui.png, id=382, 469.755pt x 274.626pt>
 File: data/sig_gui.png Graphic file (type png)
  <use data/sig_gui.png>
 Package pdftex.def Info: data/sig_gui.png used on input line 201.
 (pdftex.def)             Requested size: 452.9679pt x 264.81128pt.
 
-<data/postgis_config.png, id=379, 315.0972pt x 221.628pt>
+<data/postgis_config.png, id=383, 315.0972pt x 221.628pt>
 File: data/postgis_config.png Graphic file (type png)
 
 <use data/postgis_config.png>
 Package pdftex.def Info: data/postgis_config.png used on input line 208.
 (pdftex.def)             Requested size: 317.07614pt x 223.02074pt.
- [91 <./data/mdi_gui.png>] [92 <./data/sig_gui.png> <./data/postgis_config.png>
+ [92 <./data/mdi_gui.png>] [93 <./data/sig_gui.png> <./data/postgis_config.png>
 ]
 Cap\'{\i }tulo 9.
-[93
+[94
 
-]) (main.bbl [94]) [95
+]) (main.bbl [95] [96
 
-] (main.aux) ) 
+] [97]
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
+[]\OT1/cmr/m/n/12 Open Ge-os-pa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Fil-ter E
+n-co-ding.\OT1/cmr/m/n/12 , 2002.
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 206--209
+[]\OT1/cmr/m/n/12 Open Ge-os-pa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Ge-o-grap
+hy Mar-kup Lan-guage.\OT1/cmr/m/n/12 , 2002.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
+[]\OT1/cmr/m/n/12 Open Ge-os-pa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Web Fe-a-
+ture Ser-vice.\OT1/cmr/m/n/12 , 2002.
+ []
+
+[98] [99] [100]
+Underfull \hbox (badness 10000) in paragraph at lines 519--522
+[]\OT1/cmr/m/n/12 IBM.  \OT1/cmr/bx/it/12 In-for-mix Spa-tial.\OT1/cmr/m/n/12 ,
+ 2016.  http://www-
+ []
+
+[101] [102] [103]
+Underfull \hbox (badness 10000) in paragraph at lines 745--750
+[]\OT1/cmr/m/n/12 MALONE, M.  \OT1/cmr/bx/it/12 How Sim-ple-Geo Built a Sca-la-
+ble Ge-os-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 745--750
+\OT1/cmr/bx/it/12 pa-tial Da-ta-base with Apa-che Cas-san-dra.\OT1/cmr/m/n/12 ,
+ 2012.  http://
+ []
+
+
+Overfull \hbox (16.266pt too wide) in paragraph at lines 812--816
+[]\OT1/cmr/m/n/12 MYSQL.  \OT1/cmr/bx/it/12 MySQL Spa-tial.\OT1/cmr/m/n/12 , 20
+16.  http://dev.mysql.com/doc/refman/5.7/en/spatial-
+ []
+
+[104]
+Underfull \hbox (badness 5288) in paragraph at lines 818--822
+[]\OT1/cmr/m/n/12 BAUMANN, P.; DEH-MEN, A.; FUR-TADO, P.; RITSCH, R.; WID-
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 818--822
+\OT1/cmr/m/n/12 MANN, N.  \OT1/cmr/bx/it/12 Spatio-Temporal Re-tri-e-val with R
+as-Da-Man.\OT1/cmr/m/n/12 , 1999.
+ []
+
+
+Overfull \hbox (243.81143pt too wide) in paragraph at lines 839--843
+[]\OT1/cmr/m/n/12 OPENBAY.  \OT1/cmr/bx/it/12 Open-bay Pro-ject\OT1/cmr/m/n/12 
+, 2015.  https://github.com/isohuntto/openbay/blob/master/src/protected/data/sc
+hema.mysql.sql. 
+ []
+
+
+Underfull \hbox (badness 4467) in paragraph at lines 872--876
+[]\OT1/cmr/m/n/12 HANSEN, P.  \OT1/cmr/bx/it/12 Ge-o-To-ols, Ge-o-Ser-ver, Ge-o
+-Git: A Case Study
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 872--876
+\OT1/cmr/bx/it/12 of Use in Uti-lity Fi-eld Work.\OT1/cmr/m/n/12 , foss4g 2014 
+por-tland edi-tion, 2015.
+ []
+
+
+Underfull \hbox (badness 6268) in paragraph at lines 898--901
+[]\OT1/cmr/m/n/12 PMAPPER.  \OT1/cmr/bx/it/12 A Map-Ser-ver PHP/-MapS-cript Fra
+-mework.\OT1/cmr/m/n/12 , 2012.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--906
+[]\OT1/cmr/m/n/12 POSTGIS.  \OT1/cmr/bx/it/12 Using Post-GIS: Buil-ding Ap-pli-
+ca-ti-ons.\OT1/cmr/m/n/12 , 2015.
+ []
+
+[105]
+Underfull \hbox (badness 1028) in paragraph at lines 994--998
+\OT1/cmr/bx/it/12 Ge-o-Ser-ver And Ge-oWeb-Ca-che.\OT1/cmr/m/n/12 , foss4g 2013
+ not-tingham edi-tion, 2013.
+ []
+
+[106] [107]
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1097
+[]\OT1/cmr/m/n/12 TERADATA.  \OT1/cmr/bx/it/12 Te-ra-data Ge-os-pa-tial Fe-a-tu
+re.\OT1/cmr/m/n/12 , 2016.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1093--1097
+\OT1/cmr/m/n/12 http://br.teradata.com/Resources/Demos/Teradata-Geospatial-
+ []
+
+) (apendice.tex [108]
+Ap\^endice A.
+<data/postnet_gui_query.png, id=442, 469.755pt x 391.7034pt>
+File: data/postnet_gui_query.png Graphic file (type png)
+
+<use data/postnet_gui_query.png>
+Package pdftex.def Info: data/postnet_gui_query.png used on input line 7.
+(pdftex.def)             Requested size: 452.9679pt x 377.70451pt.
+ [109
+
+] [110 <./data/postnet_gui_query.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [112]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [114]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [115]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121])
+[122] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 5757 strings out of 493323
- 80149 string characters out of 3139059
- 200867 words of memory out of 3000000
- 9126 multiletter control sequences out of 15000+200000
- 10884 words of font info for 38 fonts, out of 3000000 for 9000
+ 6204 strings out of 493323
+ 86503 string characters out of 3139059
+ 215867 words of memory out of 3000000
+ 9568 multiletter control sequences out of 15000+200000
+ 11193 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,58p,2227b,1714s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmtt10.pfb>
-Output written on main.pdf (95 pages, 9865479 bytes).
+ 42i,12n,58p,2252b,1718s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmtt10.pfb>
+Output written on main.pdf (122 pages, 10182072 bytes).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
+ 525 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

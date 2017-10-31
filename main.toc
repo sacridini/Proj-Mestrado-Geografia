@@ -15,29 +15,30 @@
 \contentsline {section}{\numberline {6.6}Modelagem de dados e estudos de favorabilidade}{37}
 \contentsline {section}{\numberline {6.7}Modelos de dados geogr\IeC {\'a}ficos}{38}
 \contentsline {section}{\numberline {6.8}O modelo OMT-G}{38}
-\contentsline {subsection}{\numberline {6.8.1}Diagrama de classes}{38}
+\contentsline {subsection}{\numberline {6.8.1}Diagrama de classes}{39}
 \contentsline {subsection}{\numberline {6.8.2}Classes}{39}
-\contentsline {subsection}{\numberline {6.8.3}Relacionamentos}{39}
-\contentsline {subsection}{\numberline {6.8.4}Cardinalidade}{40}
+\contentsline {subsection}{\numberline {6.8.3}Relacionamentos}{40}
+\contentsline {subsection}{\numberline {6.8.4}Cardinalidade}{41}
 \contentsline {subsection}{\numberline {6.8.5}Relacionamentos topol\IeC {\'o}gicos}{41}
-\contentsline {subsection}{\numberline {6.8.6}Outras possibilidades}{41}
-\contentsline {section}{\numberline {6.9}Arquiteturas e linguagens}{42}
+\contentsline {subsection}{\numberline {6.8.6}Outras possibilidades}{42}
+\contentsline {section}{\numberline {6.9}Arquiteturas e linguagens}{43}
 \contentsline {subsection}{\numberline {6.9.1}Sistemas de ger\IeC {\^e}ncia de banco de dados relacionais}{44}
-\contentsline {subsection}{\numberline {6.9.2}A Structured Query Language (SQL)}{46}
-\contentsline {subsection}{\numberline {6.9.3}Integra\IeC {\c c}\IeC {\~a}o de arquiteturas SIG e SGBD}{49}
-\contentsline {subsection}{\numberline {6.9.4}Web arquiteturas de um mundo geogr\IeC {\'a}fico}{54}
-\contentsline {subsection}{\numberline {6.9.5}A import\IeC {\^a}ncia dos metadados}{57}
-\contentsline {subsection}{\numberline {6.9.6}Avan\IeC {\c c}os em SIG Web e cartografia orientada \IeC {\`a} servi\IeC {\c c}os web}{58}
-\contentsline {subsection}{\numberline {6.9.7}Interatividade e cartografia digital na web}{62}
-\contentsline {subsection}{\numberline {6.9.8}Tecnologias Web}{62}
-\contentsline {subsubsection}{Mapping Servers (Servidores de mapa)}{63}
-\contentsline {subsubsection}{Mapping Clients}{68}
-\contentsline {part}{III\hspace {1em}Metodologia}{71}
-\contentsline {chapter}{\numberline {7}Materiais e m\IeC {\'e}todos}{72}
-\contentsline {section}{\numberline {7.1}Motiva\IeC {\c c}\IeC {\~o}es t\IeC {\'e}cnicas para a utiliza\IeC {\c c}\IeC {\~a}o do PostGIS}{73}
-\contentsline {part}{IV\hspace {1em}Resultados e Considera\IeC {\c c}\IeC {\~o}es Finais}{76}
-\contentsline {chapter}{\numberline {8}Resultados}{77}
-\contentsline {section}{\numberline {8.1}Modelagem dos dados utilizando OMT-G}{77}
-\contentsline {section}{\numberline {8.2}Implementa\IeC {\c c}\IeC {\~a}o do modelo no PostGIS}{80}
-\contentsline {section}{\numberline {8.3}Integra\IeC {\c c}\IeC {\~a}o dos dados para an\IeC {\'a}lise}{83}
-\contentsline {chapter}{\numberline {9}Considera\IeC {\c c}\IeC {\~o}es Finais}{93}
+\contentsline {subsection}{\numberline {6.9.2}A Structured Query Language (SQL)}{45}
+\contentsline {subsection}{\numberline {6.9.3}Integra\IeC {\c c}\IeC {\~a}o de arquiteturas SIG e SGBD}{50}
+\contentsline {subsection}{\numberline {6.9.4}Web arquiteturas de um mundo geogr\IeC {\'a}fico}{55}
+\contentsline {subsection}{\numberline {6.9.5}A import\IeC {\^a}ncia dos metadados}{58}
+\contentsline {subsection}{\numberline {6.9.6}Avan\IeC {\c c}os em SIG Web e cartografia orientada \IeC {\`a} servi\IeC {\c c}os web}{59}
+\contentsline {subsection}{\numberline {6.9.7}Interatividade e cartografia digital na web}{63}
+\contentsline {subsection}{\numberline {6.9.8}Tecnologias Web}{63}
+\contentsline {subsubsection}{Mapping Servers (Servidores de mapa)}{64}
+\contentsline {subsubsection}{Mapping Clients}{69}
+\contentsline {part}{III\hspace {1em}Metodologia}{72}
+\contentsline {chapter}{\numberline {7}Materiais e m\IeC {\'e}todos}{73}
+\contentsline {section}{\numberline {7.1}Motiva\IeC {\c c}\IeC {\~o}es t\IeC {\'e}cnicas para a utiliza\IeC {\c c}\IeC {\~a}o do PostGIS}{74}
+\contentsline {part}{IV\hspace {1em}Resultados e Considera\IeC {\c c}\IeC {\~o}es Finais}{77}
+\contentsline {chapter}{\numberline {8}Resultados}{78}
+\contentsline {section}{\numberline {8.1}Modelagem dos dados utilizando OMT-G}{78}
+\contentsline {section}{\numberline {8.2}Implementa\IeC {\c c}\IeC {\~a}o do modelo no PostGIS}{81}
+\contentsline {section}{\numberline {8.3}Integra\IeC {\c c}\IeC {\~a}o dos dados para an\IeC {\'a}lise}{84}
+\contentsline {chapter}{\numberline {9}Considera\IeC {\c c}\IeC {\~o}es Finais}{94}
+\contentsline {chapter}{\numberline {A}Estrutura do c\IeC {\'o}digo fonte do Gerador de Consultas SQL para PostGIS (PostNET)}{109}

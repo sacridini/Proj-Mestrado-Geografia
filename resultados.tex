@@ -4,7 +4,7 @@ A princípio, os dados utilizados para a elaboração do trabalho já existiam c
 
 A partir da aquisição desses dados, o processo de modelagem conceitual do banco de dados foi necessário para que pudéssemos pensar a estrutura do banco antes de sua real implementação. O processo de abstração se deu utilizando o modelo OMT-G desenvolvido por Davis (2000). O banco de dados em questão será geográfico, sendo assim, a opção pelo uso de um modelo como o OMT-G se deu primeiramente por seguir as primitivas baseadas em objeto partindo da lógica utilizada pelo modelo UML e segundo, por possuir primitivas de diagramação baseadas na natureza geográfica dos objetos modelados, aumentando a capacidade semântica dos dados.
 
-O modelo OMT-G organizado para este trabalho (Figura 4.1) se baseou em diagramas elaborados por Seabra (2012), e foi todo desenvolvido utilizando uma ferramenta disponibilizada pelo próprio Departamento de Ciência da Computação da Universidade Federal de Minas Gerais. A ferramenta é gratuita, possui código aberto disponibilizado pela plataforma GitHub (https://github.com/lizardoluis/omtg-designer) e pode ser utilizada através do endereço http://www.aqui.io/omtg/. A ferramenta é toda estruturada na web e possui a funcionalidade de exportar o modelo criado pelo usuário diretamente em código SQL compatível com bancos de dados Oracle e PostGIS, além da possibilidade de salvar o próprio modelo em arquivos XML para possíveis alterações.
+O modelo OMT-G organizado para este trabalho (Figura \ref{fig:modeloomt-gfinal}) se baseou em diagramas elaborados por Seabra (2012)\cite{SEABRA}, e foi todo desenvolvido utilizando uma ferramenta disponibilizada pelo próprio Departamento de Ciência da Computação da Universidade Federal de Minas Gerais. A ferramenta é gratuita, possui código aberto disponibilizado pela plataforma GitHub (https://github.com/lizardoluis/omtg-designer) e pode ser utilizada através do endereço http://www.aqui.io/omtg/. A ferramenta é toda estruturada na web e possui a funcionalidade de exportar o modelo criado pelo usuário diretamente em código SQL compatível com bancos de dados Oracle e PostGIS, além da possibilidade de salvar o próprio modelo em arquivos XML para possíveis alterações.
 
 O trabalho realizado por Seabra foi organizado utilizando diversos diagramas com o objetivo de mostrar a produção, processamento e organização dos dados necessários para a realização de um estudo de favorabilidade. Utilizando-se o modelo OMT-G, há a possibilidade da criação de apenas um diagrama integrador, levando em consideração suas características semânticas e dando a possibilidade de exportação direta para bancos de dados espaciais.
 
@@ -14,14 +14,14 @@ Toda esta etapa de implementação foi importante por demonstrar que apesar da c
 	\begin{sidewaysfigure}[ht]
 		\centering
 		\includegraphics[width=1\linewidth]{data/modelo_OMT-G_final}
-		\caption{Modelo OMT-G baseado no estudo realizado por Seabra (2012) na BHRSJ.}
+		\caption{Modelo OMT-G baseado no estudo realizado por Seabra (2012)\cite{SEABRA} na BHRSJ.}
 		\label{fig:modeloomt-gfinal}
 	\end{sidewaysfigure}
 
 \newpage
 \section{Implementação do modelo no PostGIS}
 
-O banco de dados geográfico foi implementado utilizando o Sistema Gerenciador de Banco de Dados Objeto Relacional (SGBDOR) PostgreSQL versão 9.5 (64-bit) utilizando-se a extensão espacial PostGIS versão 2.2.2, assim como a interface gráfica pgAdmin versãoIII (Figura 5.2). 
+O banco de dados geográfico foi implementado utilizando o Sistema Gerenciador de Banco de Dados Objeto Relacional (SGBDOR) PostgreSQL versão 9.5 (64-bit) utilizando-se a extensão espacial PostGIS versão 2.2.2, assim como a interface gráfica pgAdmin versãoIII (Figura \ref{fig:pgadmin-gui}). 
 
 	\begin{figure}
 		\centering
@@ -30,7 +30,7 @@ O banco de dados geográfico foi implementado utilizando o Sistema Gerenciador d
 		\label{fig:pgadmin-gui}
 	\end{figure}
 
-A etapa de implementação do modelo OMT-G no banco PostGIS é relativamente rápida e simples. Através do pgAdmin podemos criar um novo banco de dados (Figura 5.3).
+A etapa de implementação do modelo OMT-G no banco PostGIS é relativamente rápida e simples. Através do pgAdmin podemos criar um novo banco de dados (Figura \ref{fig:newdbpgadmin}).
 
 	\begin{figure}
 		\centering
@@ -68,7 +68,7 @@ Após este processo, devemos dizer ao banco recém criado que gostaríamos de ut
 	\end{lstlisting}
 	\end{minipage}
 
-No entanto, nem sempre é necessário adicionar todas as extensões em todos os projetos. Grande parte dos projetos, assim como este, utilizam apenas o módulo principal, iniciado através do comando "CREATE EXTENSION postgis;" (Figura 5.4). Após a execução deste comando, o PostgreSQL criará automaticamente uma tabela em seu banco nomeada "spatial ref sys" contendo o número de identificação de todos os 3911 códigos EPSG representando os sistemas de referência catalogados pela \textit{International Association of Oil and Gas Producers}. No Brasil, alguns códigos EPSG são mais utilizados do que outros, como o 4326 (WGS 84), o 4618 (SAD 69) e o 4674 (SIRGAS 2000)
+No entanto, nem sempre é necessário adicionar todas as extensões em todos os projetos. Grande parte dos projetos, assim como este, utilizam apenas o módulo principal, iniciado através do comando "CREATE EXTENSION postgis;" (Figura \ref{fig:createextensionpostgis}). Após a execução deste comando, o PostgreSQL criará automaticamente uma tabela em seu banco nomeada "spatial ref sys" contendo o número de identificação de todos os 3911 códigos EPSG representando os sistemas de referência catalogados pela \textit{International Association of Oil and Gas Producers}. No Brasil, alguns códigos EPSG são mais utilizados do que outros, como o 4326 (WGS 84), o 4618 (SAD 69) e o 4674 (SIRGAS 2000)
 
 	\begin{figure}
 		\centering
@@ -77,7 +77,7 @@ No entanto, nem sempre é necessário adicionar todas as extensões em todos os 
 		\label{fig:createextensionpostgis}
 	\end{figure}
 
-Após a etapa de criação do banco e da inicialização da extensão PostGIS, inicia-se a etapa de importação de todos os dados definidos a serem inclusos pela nossa modelagem OMT-G. A importação de dados georreferenciados é diferente das importações de simples tabelas. Para esta etapa utilizamos um \textit{plugin} chamado PostGIS Shapefile and DBF Loader 2.1 (Figura 5.5). Nas últimas versões instaladas através do instalador oficial, o \textit{plugin} de importação de \textit{shapefiles} já vem incluso e instalado por padrão, sendo ainda mais fácil de importar dados em formato \textit{shapefile}. Para a importação de dados georreferenciados em outros formatos é necessário a utilização de outros \textit{plugins} como osm2pgsql que importa dados derivados do projeto OpenStreetMap para o PostGIS. Caso o plugin não esteja funcionando ou não o tenha instalado ainda é possível adicionar \textit{shapefiles} utilizando o Prompt de Comando e a ferramenta shp2pgsql e adicionando e executando o arquivo .sql criado na ferramenta de consultas SQL do pgAdmin:
+Após a etapa de criação do banco e da inicialização da extensão PostGIS, inicia-se a etapa de importação de todos os dados definidos a serem inclusos pela nossa modelagem OMT-G. A importação de dados georreferenciados é diferente das importações de simples tabelas. Para esta etapa utilizamos um \textit{plugin} chamado PostGIS Shapefile and DBF Loader 2.1 (Figura \ref{fig:shapefileloader}). Nas últimas versões instaladas através do instalador oficial, o \textit{plugin} de importação de \textit{shapefiles} já vem incluso e instalado por padrão, sendo ainda mais fácil de importar dados em formato \textit{shapefile}. Para a importação de dados georreferenciados em outros formatos é necessário a utilização de outros \textit{plugins} como osm2pgsql que importa dados derivados do projeto OpenStreetMap para o PostGIS. Caso o plugin não esteja funcionando ou não o tenha instalado ainda é possível adicionar \textit{shapefiles} utilizando o Prompt de Comando e a ferramenta shp2pgsql e adicionando e executando o arquivo .sql criado na ferramenta de consultas SQL do pgAdmin:
 
 	\begin{lstlisting}[float,floatplacement=H]
 		shp2pgsql -s SRID shapefile.shp nome_da_tabela > shapefile.sql
@@ -90,7 +90,7 @@ Após a etapa de criação do banco e da inicialização da extensão PostGIS, i
 		\label{fig:shapefileloader}
 	\end{figure}
 	
-Ao utilizar a interface gráfica do \textit{plugin} é importante que se configure o SRID (\textit{Spatial Reference System Identifier}) de cada \textit{shapefile} adicionado (Figura 5.6). É possível também adicionar múltiplos \textit{shapefiles} e/ou arquivos .dbf ao mesmo tempo. Além disso, é provável que seja necessário configurar a codificação do arquivo .dbf adicionado de OTF-8 para LATIN1 caso a tabela de atributos do \textit{shapefile} adicionada contenha caracteres típicos da linha portuguesa (Figura 5.7).
+Ao utilizar a interface gráfica do \textit{plugin} é importante que se configure o SRID (\textit{Spatial Reference System Identifier}) de cada \textit{shapefile} adicionado (Figura \ref{fig:shapefileloadergui}). É possível também adicionar múltiplos \textit{shapefiles} e/ou arquivos .dbf ao mesmo tempo. Além disso, é provável que seja necessário configurar a codificação do arquivo .dbf adicionado de OTF-8 para LATIN1 caso a tabela de atributos do \textit{shapefile} adicionada contenha caracteres típicos da linha portuguesa (Figura \ref{fig:importconfig}).
 
 Outra funcionalidade da ferramenta de importação é a possibilidade de executar os algoritmos de indexação espacial como o GiST (\textit{Generalized Search Tree}) por padrão, já na etapa de importação e sem a necessidade de executar comandos SQL, como o demonstrado a seguir por exemplo:
 	
@@ -114,7 +114,7 @@ Outra funcionalidade da ferramenta de importação é a possibilidade de executa
 
 	\section{Integração dos dados para análise}
 	
-	Com os dados já importados no PostGIS, é possível integrá-los com uma grande gama de aplicações tanto de forma offline quanto online. A partir daí muitas soluções de integração podem ser desenvolvidas. Uma bastante popular é representada na Figura 5.8 e utiliza a base de dados no PostGIS integrada ao Geoserver para a geração dos mapas consultados no PostGIS e visualizados em uma interface web como o OpenLayers. Uma abordagem mais específica e que demonstra todas as ferramentas e linguagens envolvidas no processo pode ser visto da Figura 5.9. Outras já passam a utilizar tecnologias como Node.js com Express e Mapnik para criar servidores de mapas que processam a informação geográfica em "tempo real", sendo assim uma ótima alternativa para soluções em engenharia de tráfego e solucionamento de rotas, por exemplo.
+	Com os dados já importados no PostGIS, é possível integrá-los com uma grande gama de aplicações tanto de forma offline quanto online. A partir daí muitas soluções de integração podem ser desenvolvidas. Uma bastante popular é representada na Figura \ref{fig:estruturaopensource} e utiliza a base de dados no PostGIS integrada ao Geoserver para a geração dos mapas consultados no PostGIS e visualizados em uma interface web como o OpenLayers. Uma abordagem mais específica e que demonstra todas as ferramentas e linguagens envolvidas no processo pode ser visto da Figura \ref{fig:estruturaopensource}. Outras já passam a utilizar tecnologias como Node.js com Express e Mapnik para criar servidores de mapas que processam a informação geográfica em "tempo real", sendo assim uma ótima alternativa para soluções em engenharia de tráfego e solucionamento de rotas, por exemplo.
 	
 	\begin{figure}
 		\centering
@@ -125,7 +125,7 @@ Outra funcionalidade da ferramenta de importação é a possibilidade de executa
 
 \newpage
 	
-No entanto, uma das principais e mais antigas ferramentas que possibilitam esta integração com o PostGIS é o QuantumGIS ou QGIS (Figura 5.10). O QGIS foi concebido inicialmente como uma ferramenta de conexão a bancos de dados PostgreSQL que utilizassem a extensão espacial PostGIS, mas que ao mesmo tempo tivesse como diferencial a funcionalidade de permitir a visualização do conteúdo geográfico para além das tabelas. O software amadureceu e hoje tem como bandeira ser o maior SIG gratuito e de código livre no mundo. No entanto, seu lado voltado aos bancos de dados desenvolveu somente até certo ponto. Em sua última versão estável 2.14 e mesmo em sua recém lançada versão de testes 2.16, o QGIS possui como padrão apenas a função de conexão e integração dos dados do PostGIS com o SIG. Alguns \textit{plugins} foram sendo desenvolvidos com o tempo por usuários que tentavam criar alternativas que buscassem simplificar ainda mais a utilização das funções exclusivas que o PostGIS possui. No entanto, nenhuma das alternativas apresentou, até o momento, uma interface que garanta um nível de abstração suficiente para que um usuário final que não saiba realizar consultas em SQL passe a utilizar estas funções espaciais.	
+No entanto, uma das principais e mais antigas ferramentas que possibilitam esta integração com o PostGIS é o QuantumGIS ou QGIS (Figura \ref{fig:diagrama}). O QGIS foi concebido inicialmente como uma ferramenta de conexão a bancos de dados PostgreSQL que utilizassem a extensão espacial PostGIS, mas que ao mesmo tempo tivesse como diferencial a funcionalidade de permitir a visualização do conteúdo geográfico para além das tabelas. O software amadureceu e hoje tem como bandeira ser o maior SIG gratuito e de código livre no mundo. No entanto, seu lado voltado aos bancos de dados desenvolveu somente até certo ponto. Em sua última versão estável 2.14 e mesmo em sua recém lançada versão de testes 2.16, o QGIS possui como padrão apenas a função de conexão e integração dos dados do PostGIS com o SIG. Alguns \textit{plugins} foram sendo desenvolvidos com o tempo por usuários que tentavam criar alternativas que buscassem simplificar ainda mais a utilização das funções exclusivas que o PostGIS possui. No entanto, nenhuma das alternativas apresentou, até o momento, uma interface que garanta um nível de abstração suficiente para que um usuário final que não saiba realizar consultas em SQL passe a utilizar estas funções espaciais.	
 
 	\begin{figure}
 		\centering
@@ -158,7 +158,7 @@ O DotSpatial é uma biblioteca escrita originalmente para o \textit{framework} .
 
 Toda a funcionalidade de conexão com o banco de dados PostgreSQL/PostGIS foi realizada utilizando-se da biblioteca Npgsql (NPGSQL, 2016) buscando utilizar as funcionalidades proporcionadas pelo paradigma da programação orientada a objetos.
 
-Sendo assim, através da possibilidade de utilização das citadas ferramentas iniciou-se o processo de desenvolvimento de um Sistema de Informações Geográficas protótipo denominado espaçoGIS (Figura 5.11).
+Sendo assim, através da possibilidade de utilização das citadas ferramentas iniciou-se o processo de desenvolvimento de um Sistema de Informações Geográficas protótipo denominado espaçoGIS (Figura \ref{fig:espacogislogo}).
 
 	\begin{figure}
 		\centering
@@ -167,7 +167,7 @@ Sendo assim, através da possibilidade de utilização das citadas ferramentas i
 		\label{fig:espacogislogo}
 	\end{figure}
 
-O protótipo utiliza uma interface de documentos múltiplos (MDI - \textit{Multiple Document Interface}) para gerenciar as janelas, dando a possibilidade de gerenciamento dos diversos módulos pertencentes ao SIG espaçoGIS (Figura 5.12), como o módulo SIG e o módulo de funcionalidades e gerenciamento de bancos de dados no PostGIS denominado PostNet (Figura 5.13). Na Figura 5.14 apresenta a vantagem do uso de uma interface do tipo MDI.
+O protótipo utiliza uma interface de documentos múltiplos (MDI - \textit{Multiple Document Interface}) para gerenciar as janelas, dando a possibilidade de gerenciamento dos diversos módulos pertencentes ao SIG espaçoGIS (Figura \ref{fig:espacogisgui}), como o módulo SIG e o módulo de funcionalidades e gerenciamento de bancos de dados no PostGIS denominado PostNet (Figura \ref{fig:postnetgui}). Na Figura \ref{fig:mdigui} apresenta a vantagem do uso de uma interface do tipo MDI.
 
 	\begin{figure}
 		\centering
@@ -190,11 +190,11 @@ O protótipo utiliza uma interface de documentos múltiplos (MDI - \textit{Multi
 		\label{fig:mdigui}
 	\end{figure}
 
-A implementação do módulo SIG se deu primeiramente desenvolvendo as funcionalidades mais básicas utilizando a biblioteca DotSpatial. Funções como "Adicionar Camada", "Zoom In", "Zoom Out", "Zoom to Extent", "Limpar Camada", "Informações", "Selecionar", "Pan" e "Salvar Camada" foram implementadas primeiramente como mostrado no Anexo 7.2.
+A implementação do módulo SIG se deu primeiramente desenvolvendo as funcionalidades mais básicas utilizando a biblioteca DotSpatial. Funções como "Adicionar Camada", "Zoom In", "Zoom Out", "Zoom to Extent", "Limpar Camada", "Informações", "Selecionar", "Pan" e "Salvar Camada" foram implementadas primeiramente como mostrado no Anexo.
 
-Em seguida, o módulo de funções ligadas à aba de legenda foi desenvolvida assim como o módulo de visualização dos mapas, representados respectivamente na Figura 5.15.
+Em seguida, o módulo de funções ligadas à aba de legenda foi desenvolvida assim como o módulo de visualização dos mapas, representados respectivamente na Figura \ref{fig:siggui}.
 
-A interface ainda possui a janela de conexão ao PostGIS (Figura 5.16) e ao módulo PostNET. A GUI (\textit{Guafical User Interface}) desenvolvida para as funções do módulo PostNet possuem um padrão específico, buscando se assemelhar propositalmente à interface do módulo "Selecionar por Atributos" desenvolvida para o SIG ArcMap. Esta escolha se deu devido a grande popularidade do software e por considerar que grande parte da comunidade envolvida com a utilização de SIG provavelmente já teve algum contato com a ferramenta da ESRI, facilitando o acesso de novos usuários.
+A interface ainda possui a janela de conexão ao PostGIS (Figura \ref{fig:postgisconfig}) e ao módulo PostNET. A GUI (\textit{Guafical User Interface}) desenvolvida para as funções do módulo PostNet possuem um padrão específico, buscando se assemelhar propositalmente à interface do módulo "Selecionar por Atributos" desenvolvida para o SIG ArcMap. Esta escolha se deu devido a grande popularidade do software e por considerar que grande parte da comunidade envolvida com a utilização de SIG provavelmente já teve algum contato com a ferramenta da ESRI, facilitando o acesso de novos usuários.
 
 	\begin{figure}
 		\centering

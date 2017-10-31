@@ -1,27 +1,1161 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{100}
 
-\bibitem{CASTIGLIONE}
-L.~H.~G. CASTIGLIONE.
-\newblock {\em \textbf{Epistemologia da geoinformação: uma análise
-  histórico-crítica.}}
-\newblock PhD thesis, Universidade Federal Fluminense - Instituto Brasileiro de
-  Informação em Ciência e Tecnologia., Niterói - Rio de Janeiro, 2009.
+\bibitem{AGOURIS}
+AGOURIS{,} P{.}{;}~CROITORU{,} A{.}
+\newblock {\em \textbf{Next Generation Geospatial Information: From Digital
+  Image Analysis to SpatioTemporal Databases{.}}}
+\newblock Taylor \& Francis Group, London, 2005.
+
+\bibitem{AIME}
+AIME{,} A{.}
+\newblock {\em \textbf{Raster Data In GeoServer And GeoTools: Achievements{,}
+  Issues And Future Developments{.}}}, {FOSS4G} 2014 portland edition, 2015.
+\newblock https://vimeo{.}com/106225056.
+
+\bibitem{BURROUGH_FRANK}
+BURROUGH{,} P{.}{;}~FRANK{,} A{.}
+\newblock {\em \textbf{Geographic Objects with Indeterminate Boundaries{.}}}
+\newblock Taylor \& Francis, London, 1996.
+
+\bibitem{CHRISTOFOLETTI}
+CHRISTOFOLETTI{,} A{.}
+\newblock {\em \textbf{As Perspectivas dos Estudos Geográficos}}.
+\newblock Difel, São Paulo, 1985.
+
+\bibitem{DAVIS}
+DAVIS{,}~C{.} A{.}
+\newblock {\em \textbf{Múltiplas representações em sistemas de informação
+  geográficos{.}}}
+\newblock PhD thesis, Departamento de Ciência da Computação - UFMG, Belo
+  Horizonte{,} MG, 2000.
+
+\bibitem{DAVIS_etal02}
+DAVIS{,} C{.}{;} BORGES{,} K{.}{;}~LAENDER{,} A{.}
+\newblock \textbf{OMT-G: An Object-Oriented Data Model for Geographic
+  Applications{.}}
+\newblock {\em GeoInformatica}, 3(1), 2002.
+
+\bibitem{DUVANDER}
+DUVANDER{,} A{.}
+\newblock {\em \textbf{Map Scripting 101: An Example-Driven Guide to Building
+  Interactive Maps with Bing{,} Yahoo!{,} and Google Maps{.}}}
+\newblock No Starch Press, San Francisco{,} EUA, 2010.
+
+\bibitem{FURIERI}
+FURIERI{,} A{.}
+\newblock {\em \textbf{Using SpatiaLite{.}}}, 2012.
+\newblock http:/ /www{.}gaia-gis{.}it/gaia-sins.
+
+\bibitem{GARNETT_AIME}
+GARNETT{,} J{.}{;}~AIME{,} A{.}
+\newblock {\em \textbf{GeoServer Feature Frenzy{.}}}, foss4g 2014 portland
+  edition, 2015.
+\newblock https://vimeo{.}com/106221374.
+
+\bibitem{GRASER}
+GRASER{,} A{.}
+\newblock {\em \textbf{Publishing interactive web maps using QGIS{.}}}, 2015.
+\newblock
+  http://anitagraser{.}com/2015/01/31/publishing-interactive-web-maps-using-qgis.
+
+\bibitem{JURGENS_JUNGHERR}
+JURGENS{,} P{.}{;}~JUNGHERR{,} A{.}
+\newblock {\em \textbf{A Tutorial For Using Twitter Data in the Social
+  Sciences: Data Collection{,} Preparation{,} and Analysis{.}}}, 2016.
+\newblock http://ssrn{.}com/abstract=2710146.
+
+\bibitem{MARQUEZ}
+MARQUEZ{,} A{.}
+\newblock {\em \textbf{PostGIS Essentials{.}}}
+\newblock Packt Publishing, UK, 2015.
+
+\bibitem{MELTON_EISENBERG}
+MELTON{,} J{;}~EISENBERG{,} A{.}
+\newblock \textbf{SQL multimedia and application packages (SQL/MM){.}}
+\newblock {\em ACM SIGMOD}, 30(4):97--102, 2001.
+
+\bibitem{RIGAUX_etal02}
+RIGAUX{,} P{.}{;} SCHOLL{,} M{.}{;}~VOISARD{,} A{.}
+\newblock {\em \textbf{Spatial Databases with application to GIS{.}}}
+\newblock Morgan Kaufmann Publishers, 2002.
+
+\bibitem{SUERTEGARAY}
+SUERTEGARAY{,} D{.}~M{.} A{.}
+\newblock {\em \textbf{Geografia física{,} geografia ambiental ou geografia e
+  ambiente}}.
+\newblock UFPR, Curitiba, 2004.
+
+\bibitem{SZALEY_BLAKELEY}
+SZALEY{,} A{.} S{.}{;} BLAKELEY{,}~J{.} A{.}
+\newblock {\em \textbf{Gray’s laws: database-centric computing in
+  science{.}}}
+\newblock Microsoft, Redmond, 2009.
+
+\bibitem{TANENBAUM_02}
+TANENBAUM{,} A{.}
+\newblock {\em \textbf{Distributed Systems: Principles and Paradigms{.}}}
+\newblock Prentice Hall{.}, 2002.
+
+\bibitem{TANENBAUM_11}
+TANENBAUM{,} A{.}
+\newblock {\em \textbf{Computer Networks{.}}}
+\newblock Prentice Hall, 5 edition, 2011.
+
+\bibitem{MOURA}
+MOURA{,} A{.}C{.}M{.}
+\newblock \textbf{A importância dos metadados no uso das Geotecnologias e na
+  difusão da Cartografia Digital{.}}
+\newblock {\em Seminário Nacional sobre Mapeamento Sistemático},
+  volume(number):1--18, 2005.
+
+\bibitem{CAMARA_b}
+author.
+\newblock {\em \textbf{Representação computacional dos dados
+  geográficos{.}}}
+\newblock Editora Mundo Geo, Curitiba, 2005.
+
+\bibitem{ARMOND}
+ARMOND{,}~N{.} B{.}
+\newblock \textbf{Impressões Sobre as Trajetórias Recentes da Geografia
+  Física Integradora no Brasil{.}}
+\newblock {\em Terra Livre}, 2(41):101--131, 2013.
+
+\bibitem{DINCER_URAZ}
+DINCER{,} A{.}{;}~URAZ{,} B{.}
+\newblock {\em \textbf{Google Maps JavaScript API Cookbook{.}}}
+\newblock Packt Publishing, EUA, 2013.
+
+\bibitem{ELMASRI_NAVATHE}
+ELMASRI{,} R{.}{;} NAVATHE{,}~S{.} B{.}
+\newblock {\em \textbf{Fundamentals of database systems{.}}}
+\newblock Addison Wesley, 2006.
+
+\bibitem{KROPLA}
+KROPLA{,} B{.}
+\newblock {\em \textbf{Beginning MapServer: Open Source GIS Development{.}}}
+\newblock Apress, 2005.
+
+\bibitem{LATOUR}
+LATOUR{,} B{.}
+\newblock {\em \textbf{Jamais fomos modernos: ensaio de antropologia
+  simétrica{.}}}
+\newblock Rio de Janeiro, 1994.
+
+\bibitem{OLIVEIRA_etal97}
+OLIVEIRA{,} J{.} L{.}{;} PIRES{,} F{.}{;} MEDEIROS{,} C{.}~M{.} B{.}
+\newblock \textbf{An environment for modeling and design of geographic
+  applications{.}}
+\newblock {\em GeoInformatica}, 1(1):29--58, 1997.
+
+\bibitem{OOI}
+OOI{,} B{.}
+\newblock {\em \textbf{Efficient Query Processing in Geographic Information
+  Systems{.}}}
+\newblock Springer, New York, 1990.
+
+\bibitem{SHREINER_etal13}
+SHREINER{,} D{.}{;} SELLERS{,} G{.}{;} KESSENICH{,} J{.}{;} LICEA-KANE{,} B{.}
+\newblock {\em \textbf{OpenGL Programming Guide{.}}}
+\newblock Pearson Education Inc, New Jersey, 8 edition, 2013.
+
+\bibitem{MENEZES_FERNANDES}
+MENEZES{,} P{.} M{.} L{.}{;} FERNANDES{,}~M{.} C{.}
+\newblock {\em \textbf{Roteiro de Cartografia{.}}}
+\newblock Oficina de Textos, São Paulo, 2013.
+
+\bibitem{NIEVERGELT_etal84}
+NIEVERGELT{,} J{.}{;} HINTERBERGER{,} H{.}{;} SEVCIK{,}~K{.} C{.}
+\newblock \textbf{The Grid File: An Adaptable{,} Symmetric Multikey File
+  Structure{.}}
+\newblock {\em ACM Transactions on Database Systems}, (1):38--71, 1984.
+
+\bibitem{OPENSHAW_OPENSHAW}
+OPENSHAW{,} S{.}{;}~OPENSHAW{,} C{.}
+\newblock {\em \textbf{Artificial Intelligence in Geography{.}}}
+\newblock John Wiley, Chichester, 1997.
+
+\bibitem{SHANNON}
+SHANNON{,} C{.}
+\newblock \textbf{A Mathematical Theory of Communication{.}}
+\newblock {\em Bell System Tech}, 27:379–--423, 1948.
+
+\bibitem{SILVA_KEITH}
+SILVA{,} E{.} A{.}{;} KEITH~C{.} C{.}
+\newblock \textbf{Calibration of the SLEUTH Urban Growth Model for Lisbon and
+  Porto{.}}
+\newblock {\em Computers{,} Environment and Urban Systems}, pages 525–--552,
+  2002.
+
+\bibitem{SEABRA_CRUZ}
+SEABRA{,} V{.} S{.}{;}~CRUZ{,} C{.}B{.}M{.}
+\newblock \textbf{Mapeamento da Dinâmica da Cobertura e Uso da Terra na Bacia
+  Hidrográfica do Rio São João{,} RJ{.}}
+\newblock {\em Sociedade e Natureza}, 25(2):411--426, 2013.
 
 \bibitem{CESIUM}
 CESIUM.
-\newblock {\em \textbf{Cesium.}}, 2016.
-\newblock https://cesiumjs.org/.
+\newblock {\em \textbf{Cesium{.}}}, 2016.
+\newblock https://cesiumjs{.}org/.
+
+\bibitem{OGC_02b}
+Open~Geospatial Consortium.
+\newblock {\em \textbf{Filter Encoding{.}}}, 2002.
+\newblock http://www{.}opengeospatial{.}org.
+
+\bibitem{OGC_02d}
+Open~Geospatial Consortium.
+\newblock {\em \textbf{Geography Markup Language{.}}}, 2002.
+\newblock http://www{.}opengeospatial{.}org.
+
+\bibitem{OGC_02a}
+Open~Geospatial Consortium.
+\newblock {\em \textbf{Styled Layer Descriptor Implementation
+  Specification{.}}}, 2002.
+\newblock http://www{.}opengeospatial{.}org.
+
+\bibitem{OGC_02c}
+Open~Geospatial Consortium.
+\newblock {\em \textbf{Web Feature Service{.}}}, 2002.
+\newblock http://www{.}opengeospatial{.}org.
+
+\bibitem{OGC_12a}
+Open~Geospatial Consortium.
+\newblock {\em \textbf{OpenGIS Implementation Specification for Geographic
+  information - Simple feature access - Part 1: Common architecture{.}}}, 2012.
+\newblock http://www{.}opengeospatial{.}org.
+
+\bibitem{OGC_12b}
+Open~Geospatial Consortium.
+\newblock {\em \textbf{OpenGISImplementation Specification for Geographic
+  information - Simple feature access - Part 2: SQL option{.}}}, 2012.
+\newblock http://www{.}opengeospatial{.}org.
+
+\bibitem{UML}
+RATIONAL~SOFTWARE CORPORATION.
+\newblock {\em \textbf{The Unified Modeling Language: notation guide{.}}},
+  1997.
+
+\bibitem{BEDARD_etal96}
+BÉDARD{,} Y{.}{;} CARON{,} C{.}{;} MAAMAR{,} Z{.}{;} MOULIN{,}
+  B{.}{;}~VALLIÈRE{,} D{.}
+\newblock \textbf{Adapting data models for the design of spatio-temporal
+  databases{.}}
+\newblock {\em Computers{,} Environment and Urban Systems}, 20(1):19--41, 1996.
+
+\bibitem{CRK_etal09}
+CRK{,} T{.}{;} URIARTE{,} M{.}{;} CORSI{,} F{.}{;}~FLYNN{,} D{.}
+\newblock \textbf{Forest recovery in a tropical landscape: what is the relative
+  importance of biophyical{,} socioeconomic{,} and landscape 198 variables?}
+\newblock {\em Landscape Ecology}, pages 629–--642, 2009.
 
 \bibitem{DANIELS_etal11}
-ENTRIKIN J. N. RICHARDSON~D. DANIELS~S., DELYSER~D.
-\newblock {\em \textbf{Envisioning Landscapes, Making Worlds.}}
+DANIELS S{.}{,} DELYSER D{.}{,} ENTRIKIN J{.} N{.}{,}~RICHARDSON D{.}
+\newblock {\em \textbf{Envisioning Landscapes{,} Making Worlds{.}}}
 \newblock Routledge, Abingdon, 2011.
 
-\bibitem{CAMARA_etal10}
-CÂMARA{,} G{.}{;} VINHAS{,} L{.}{;} QUEIROZ{,} G{.} R{.}{;} FERREIRA{,} K{.}
-  R{.}{;} MONTEIRO{,} A{.} M.{;} CARVALHO{,} M{.}{;}~CASANOVA{,} M{.}
-\newblock {\em \textbf{TerraLib{;} An open-source GIS library for large-scale
-  environmental and socio-economic applications.}}
+\bibitem{DEAR_etal11}
+DEAR M{.}{,} KETCHUM J{.}{,} LURIA S{.}{,}~RICHARDSON D{.}
+\newblock {\em \textbf{Geohumanities: Art{,} History{,} Text at the Edge of
+  Place{.}}}
+\newblock Routledge, Abingdon, 2011.
+
+\bibitem{DELYSER_SUI_11}
+DELYSER{,} D{.}{;}~SUI{,} D{.}
+\newblock \textbf{Crossing the qualitative-quantitative chasm I: Hybrid
+  geographies{,} the spatial turn{,} and volunteered geographic information
+  (VGI){.}}
+\newblock {\em Progress in Human Geography - SAGE Publications}, 2011.
+
+\bibitem{DELYSER_SUI_12}
+DELYSER{,} D{.}{;}~SUI{,} D{.}
+\newblock \textbf{Crossing the qualitative-quantitative divide II: Inventive
+  approaches to big data{,} mobile methods{,} and rhythmanalysis{.}}
+\newblock {\em Progress in Human Geography - SAGE Publications}, 2012.
+
+\bibitem{DELYSER_SUI_13}
+DELYSER{,} D{.}{;}~SUI{,} D{.}
+\newblock \textbf{Crossing the qualitative-quantitative chasm III: Enduring
+  methods{,} open geography{,} participatory research{,} and the fourth
+  paradigm{.}}
+\newblock {\em Progress in Human Geography - SAGE Publications}, 2013.
+
+\bibitem{DENT}
+DENT{,}~B{.} D{.}
+\newblock {\em \textbf{Cartography: thematic map design{.}}}
+\newblock Dubuque, 4 edition, 1999.
+
+\bibitem{HARVEY}
+HARVEY{,} D{.}
+\newblock {\em \textbf{Explanation in Geography{.}}}
+\newblock E Arnold, London, 1969.
+
+\bibitem{LUNA}
+LUNA{,}~F{.} D{.}
+\newblock {\em \textbf{Introduction to 3D Programming with DirectX 10{.}}}
+\newblock Jones \& Bartlett Publishers, 2008.
+
+\bibitem{MONTEIRO_01}
+MONTEIRO{,} C{.}~A{.} de~F{.}
+\newblock {\em \textbf{Geossistemas a história de uma procura{.}}}
+\newblock Contexto, São Paulo, 2 edition, 2001.
+
+\bibitem{MONTEIRO_06}
+MONTEIRO{,} C{.}~A{.} de~F{.}
+\newblock \textbf{Geografia entre os séculos XX e XXI: minha vivência na 2ª
+  metade do 1º e na entrada do 2º e inquietações sobre o futuro{.}}
+\newblock {\em GEOgraphia}, 8(16):pages, 2006.
+
+\bibitem{SANTOS_06}
+SANTOS{,}~B{.} de~S{.}
+\newblock {\em \textbf{Um discurso sobre as ciências{.}}}
+\newblock Cortez, São Paulo, 4 edition, 2006.
+
+\bibitem{HAZZARD}
+HAZZARD{,} E{.}
+\newblock {\em \textbf{OpenLayers 2.10 Beginners Guide.}}
+\newblock Packt Publishing, 2011.
+
+\bibitem{LEMOINE}
+LEMOINE{,} E{.}
+\newblock {\em \textbf{OpenLayers 3: a unique mapping library{.}}}, {FOSS4G}
+  2014 portland edition, 2014.
+\newblock https://vimeo{.}com/107531481.
+
+\bibitem{MORIN}
+MORIN{,} E{.}
+\newblock {\em \textbf{Ciência com consciência{.}}}
+\newblock Bertrand Brasil, Rio de Janeiro, 7 edition, 2005.
+
+\bibitem{PARENT_etal99}
+PARENT{,} C{.}{;} SPACCAPIETRA{,} S{.}{;}~ZIMANYI{,} E{.}
+\newblock \textbf{Spatio-temporal conceptual models: data structures plus space
+  plus time{.}}
+\newblock {\em 7th International Symposium on Advances in Geographic
+  Information Systems}, pages 26--33, 1999.
+
+\bibitem{SHEPPARD}
+SHEPPARD{,} E{.}
+\newblock {\em \textbf{Produção de conhecimento através do Sistema de
+  Informações Geográficas Crítico: genealogia e perspectivas{.}}}
+\newblock IPPUR-UFRJ, Rio de Janeiro, 2008.
+
+\bibitem{BORGES_elat01}
+BORGES{,} K{.} A{.} V{.}{;} DAVIS JR{.}{,} C{.} A{.}{;} LAENDER{,} A{.}~H{.}
+  F{.}
+\newblock \textbf{OMT-G: an object-oriented data model for geographic
+  applications{.}}
+\newblock {\em GeoInformatica}, 5(3):221--260, 2001.
+
+\bibitem{BORGES_elat02}
+BORGES{,} K{.} A{.} V{.}{;} DAVIS JR{.}{,} C{.} A{.}{;} LAENDER{,} A{.}~H{.}
+  F{.}
+\newblock {\em \textbf{Integrity constraints in spatial databases{.}}}
+\newblock Idea Group Publishing, Hershey, 2002.
+
+\bibitem{BORGES_etal05}
+BORGES{,} K{.} A{.} V{.}{;} DAVIS JR{.}{,} C{.} A{.}{;} LAENDER{,} A{.}~H{.}
+  F{.}
+\newblock {\em \textbf{Modelagem conceitual de dados geográficos{.}}}
+\newblock Editora Mundo Geo, Curitiba, 2005.
+
+\bibitem{CODD}
+CODD{,}~E{.} F{.}
+\newblock \textbf{A relational model of data for large shared data banks{.}}
+\newblock {\em Communications of the ACM}, 13(6):377--387, 1970.
+
+\bibitem{MENDONCA}
+MENDONÇA{,} F{.}
+\newblock {\em \textbf{Geografia e meio ambiente{.}}}
+\newblock Contexto, São Paulo, 8 edition, 2005.
+
+\bibitem{SCHAEFER}
+SCHAEFER{,} F{.}
+\newblock \textbf{Exceptionalism in Geography: A Methodological Examination{.}}
+\newblock {\em AAAG}, 18(3):226--249, 1953.
+
+\bibitem{SOWA}
+SOWA{,}~J{.} F{.}
+\newblock {\em \textbf{Knowledge Representation: Logical{,} Philosophical{,}
+  and Computational Foundations{.}}}
+\newblock Brooks Cole, Pacific Grove, 2000.
+
+\bibitem{URBANO_CAGNACCI}
+URBANO{,} F{.}{;}~CAGNACCI{,} F{.}
+\newblock {\em \textbf{Spatial Database for GPS Wildlife Tracking Data{.}}}
+\newblock Springer International Publishing, Switzerland, 2014.
+
+\bibitem{WARMERDAM}
+WARMERDAM{,} F{.}
+\newblock \textbf{The Geospatial Data Abstraction Library{.}}
+\newblock {\em Open Source Approaches in Spatial Data Handling: Advances in
+  Geographic Information Science{.}}, pages 87--104, 2010.
+
+\bibitem{FEATURESERVER}
+FEATURESERVER.
+\newblock {\em \textbf{FeatureServer{.}}}, 2015.
+\newblock http://featureserver{.}org.
+
+\bibitem{BERTRAND}
+BERTRAND{,} G{.}
+\newblock \textbf{Paisagem e geografia física global: um esboço
+  metodológico{.}}
+\newblock {\em Revista RA E GA}, (8):141--152, 2004.
+
+\bibitem{BROWN}
+BROWN{,}~P{.} G{.}
+\newblock \textbf{Overview of sciDB: large scale array storage{,} processing
+  and analysis{.}}
+\newblock {\em ACM SIGMOD International Conference on Management of data},
+  pages 963--968, 2010.
+
+\bibitem{CASTIGLIONE}
+CASTIGLIONE{,} L{.}~H{.} G{.}
+\newblock {\em \textbf{Epistemologia da geoinformação: uma análise
+  histórico-crítica{.}}}
+\newblock PhD thesis, Universidade Federal Fluminense - Instituto Brasileiro de
+  Informação em Ciência e Tecnologia{.}, Niterói - Rio de Janeiro, 2009.
+
+\bibitem{CAMARA}
+CÂMARA{,} G{.}
+\newblock {\em \textbf{Modelos{,} Linguagens e Arquiteturas para Bancos de
+  Dados Geográficos{.}}}
+\newblock PhD thesis, Instituto Nacional de Pesquisas Espaciais, São José dos
+  Campos{,} SP, 1995.
+
+\bibitem{QUEIROZ_etal13}
+QUEIROZ{,} G{.} B{.}{;} MONTEIRO{,} A{.} M{.} V{.}{;}~CÂMARA{,} G{.}
+\newblock \textbf{Bancos de dados geográficos e sistemas nosql: onde estamos e
+  para onde vamos{.}}
+\newblock {\em Revista Brasileira de Cartografia}, 3(65):479--492, 2013.
+
+\bibitem{RUMBAUGH_etal04}
+RUMBAUGH{,} J{.}{;} JACOBSON{,} I{.}{;}~BOOCH{,} G{.}
+\newblock {\em \textbf{The Unified Modeling Language Reference Manual{.}}}
+\newblock Pearson Education Inc, Boston, 2 edition, 2004.
+
+\bibitem{SVENNERBERG}
+SVENNERBERG{,} G{.}
+\newblock {\em \textbf{Beginning Google Maps API 3{.}}}
+\newblock Apress, EUA, 2 edition, 2010.
+
+\bibitem{GVSIG}
+GVSIG.
+\newblock {\em \textbf{Portal gvSIG{.}}}, 2015.
+\newblock http://www{.}gvsig{.}org/web.
+
+\bibitem{ACSELRAD}
+ACSELRAD{,} H{,}.
+\newblock {\em \textbf{Cartografias Sociais e Território{.}}}
+\newblock IPPUR/UFRJ, Rio de Janeiro, 2008.
+
+\bibitem{KOSTERS_etal97}
+KOSTERS{,} G{.}{;} PAGEL{,} B{.}{;}~SIX{,} H{.}
+\newblock \textbf{GIS application development with GeoOOA{.}}
+\newblock {\em International Journal of Geographic Information Science},
+  11(4):307--335, 1997.
+
+\bibitem{LAWDER_KING}
+LAWDER{,} J{.} K{.}{;} KING{,} P{.}~J{.} H{.}
+\newblock \textbf{Using Space-Filling Curves for Multi-dimensional Indexing{.}}
+\newblock {\em British National Conference on Databases: Advances in
+  Databases}, pages 20--35, 2000.
+
+\bibitem{NETELER_MITASOVA}
+NETELER{,} M{.}{;}~MITASOVA{,} H{.}
+\newblock {\em \textbf{Open Source GIS: A GRASS GIS approach{.}}}
+\newblock 3 edition, 2008.
+
+\bibitem{RUDEL_etal00}
+RUDEL TK{.}{;} PEREZ-LUGO M{.}{;}~ZICHAL H{.}
+\newblock \textbf{When fields revert to forest: development and spontaneous
+  reforestation in Post-War Puerto Rico{.}}
+\newblock {\em The Professional Geographer}, pages 386–--397, 2000.
+
+\bibitem{CHORLEY_HAGGETT}
+CHORLEY{,} R{.} J{.}{;}~P{.} HAGGETT{.}
+\newblock {\em \textbf{Models in Geography{.}}}
+\newblock Methuen, London, 1967.
+
+\bibitem{BURTON}
+BURTON{,} I{.}
+\newblock \textbf{The Quantitative Revolution and Theoretical Geography{.}}
+\newblock {\em Canadian Geographer}, (7):151–--162, 1963.
+
+\bibitem{IOSIFESCU_11}
+IOSIFESCU I{.}
+\newblock {\em \textbf{Cartographic Web Services{.}}}
+\newblock PhD thesis, ETH Zurich, Switzerland, 2009.
+
+\bibitem{IOSIFESCU_13}
+IOSIFESCU I{.}
+\newblock \textbf{Advancesin Web Service-Driven Cartography{.}}
+\newblock {\em Proceedings of the 26th International Cartographic Conference
+  ICC}, 2013.
+
+\bibitem{MARCEAU_BENENSON}
+MARCEAU{,} D{.} J{.}{;}~BENENSON{,} I{.}
+\newblock {\em \textbf{Advanced Geosimulation Models{.}}}
+\newblock Bentham Science Publishers Ltd{.}, 2011.
+
+\bibitem{PRIGOGINE}
+PRIGOGINE{,} I{.}
+\newblock {\em \textbf{O fim das certezas: tempo{,} caos e as leis da
+  natureza{.}}}
+\newblock UNESP, São Paulo, 1996.
+
+\bibitem{TURTON}
+TURTON{,} I{.}
+\newblock {\em \textbf{GeoTools{.} Open Source Approaches in Spatial Data
+  Handling: Advances in Geographic Information Science{.}}}
 \newblock Springer, 2010.
+
+\bibitem{IBM_02}
+IBM.
+\newblock {\em \textbf{IBM DB2 Spatial Extender: user’s guide and
+  reference{.}}}, 2002.
+\newblock http://www{.}ibm{.}com{.}br.
+
+\bibitem{IBM_16}
+IBM.
+\newblock {\em \textbf{Informix Spatial{.}}}, 2016.
+\newblock http://www-01{.}ibm{.}com/software/data/informix/spatial/.
+
+\bibitem{ISO}
+ISO.
+\newblock {\em \textbf{ISO 19128 Geographic Information: Web Map Server
+  Interface{.}}}, international organization for standardization{,} iso
+  technical committee 211 edition, 2005.
+
+\bibitem{BOHNER_etal06}
+BÖHNER{,} J{.}{;} McCLOY{,} K{.} R{.}{;}~STROBL{,} J{.}
+\newblock {\em \textbf{SAGA: analysis and modelling applications{.}}}
+\newblock Göttinger Geographische Abhandlungen, Göttingen, 2006.
+
+\bibitem{CLARKE_GAYDOS}
+CLARKE{,} K{.} C{.}{;} GAYDOS{,}~L{.} J{.}
+\newblock \textbf{Loose-coupling a Cellular Automaton Model and GIS: Long-term
+  Urban Growth Prediction for San Francisco and Washington/Baltimore{.}}
+\newblock {\em International Journal of Geographical Information Science},
+  12(7):699--714, 1998.
+
+\bibitem{EGENHOFER_etal99}
+EGENHOFER{,} M{.}{;} GLASGOW{,} J{.}{;} GÜNTHER{,} O{.}{;} HERRING{,} J{.}
+  R{.}{;} PEUQUET{,}~D{.} J{.}
+\newblock \textbf{Progress in computational methods for representing
+  geographical concepts{.}}
+\newblock {\em International Journal of Geographical Information Science{.}},
+  13(8):775--796, 1999.
+
+\bibitem{GARNETT_etal15}
+GARNETT{,} J{.}{;} AIME{,} A{.}{;}~DEOLIVERA{,} J{.}
+\newblock {\em \textbf{State of GeoServer and GeoTools 2014{.}}}, foss4g 2014
+  portland edition, 2015.
+\newblock http://vimeo{.}com/106835755.
+
+\bibitem{HAPSTER}
+HAPSTER{,} J{.}
+\newblock {\em \textbf{PGRestAPI}}, 2016.
+\newblock https://github{.}com/spatialdev/PGRestAPI.
+
+\bibitem{HERRING_etal88}
+HERRING{,} J{.}{,} LARSEN{,} R{.}{.}{;}~SHIVAKUMAR{,} J{.}
+\newblock \textbf{Extensions to the SQL language to support spatial analysis in
+  a topological data base{.}}
+\newblock {\em Proceedings of GIS/L IS 88{,} San Antonio}, pages 741--750,
+  1988.
+
+\bibitem{KWUN}
+KWUN{,} J{.}
+\newblock {\em \textbf{Big size meteorological data processing and mobile
+  displaying system using PostgresSQL and GeoServer{.}}}, {FOSS4G} 2014
+  portland edition, 2014.
+\newblock https://vimeo{.}com/106221099.
+
+\bibitem{LISBOA_FILHO}
+LISBOA~FILHO{,} J{.}
+\newblock {\em \textbf{Modelos de dados conceituais para sistemas de
+  informação geográfica{.}}}
+\newblock UFRGS, Porto Alegre, 1997.
+
+\bibitem{MELTON}
+MELTON{,} J{.}
+\newblock {\em \textbf{AdvancedSQL: 1999 - Understanding Object-Relational and
+  Other Advanced Features{.}}}
+\newblock Morgan Kaufmann, 2003.
+
+\bibitem{SHELLER_URRY}
+SHELLER{,} M{.}{,}~URRY{,} J{.}
+\newblock \textbf{The new mobilities paradigm{.}}
+\newblock {\em Environment and Planning A}, pages 207–--226, 2006.
+
+\bibitem{STONEBRAKER_etal13}
+STONEBRAKER{,} M{.}{,} BROWN{,} P{.}{,} ZHANG{,} D{.}{,}~BECLA{,} J{.}
+\newblock \textbf{SciDB: A database management system for applications with
+  complex analytics{.}}
+\newblock {\em Computing in Science \& Engineering}, 15(3):54–--62, 2013.
+
+\bibitem{WORBOYS_etal90}
+WORBOYS{,} M{.} F{.}{;} HEARNSHAW{,} H{.} M{.}{;} MAGUIRE{,}~D{.} J{.}
+\newblock \textbf{Object-oriented data modelling for spatial databases{.}}
+\newblock {\em International Journal of Geographic Information Systems},
+  4(4):369--383, 1990.
+
+\bibitem{HEY_etal09}
+HEY{,} T{.}{;} TANSLEY{,} S{.}{;}~TOLLE{,} K{.}
+\newblock {\em \textbf{The Fourth Paradigm}}.
+\newblock Microsoft Research, Redmond{,} Washington, 1 edition, 2009.
+
+\bibitem{OOI_etal89}
+OOI{,} B{.}{,} SACKS-DAVIS{,} R{.}{;}~MCDONELL{,} K{.}
+\newblock \textbf{Extending a DBMS for geographic applications{.}}
+\newblock {\em Proceedings of IEEE Fifth International Conference on Data
+  Engineering}, pages 590--597, 1989.
+
+\bibitem{POPPER}
+POPPER{,} K{.}
+\newblock {\em \textbf{A Lógica da Pesquisa Científica{.}}}
+\newblock EDUSP, São Paulo, 1975.
+
+\bibitem{ABRAHART}
+ABRAHART{,} R{.} J{.}{;}~SEE{,} L{.}
+\newblock {\em \textbf{GeoComputation}}.
+\newblock CRC Press, address, edition edition, ye2014ar.
+
+\bibitem{ALMEIDA_etal03}
+ALMEIDA{,} C{.} M{.}{;} BATTY{,} M{.}{;} MONTEIRO{,} A{.} M{.} V{.}{;}
+  CÂMARA{,} G{.}{;} SOARES-FILHO{,} B{.} S{.}{;} CERQUEIRA{,} G{.} C{.}{;}
+  PENNACHIN{,}~C{.} L{.}
+\newblock \textbf{Stochastic cellular automata modeling of urban land use
+  dynamics: empirical development and estimation{.}}
+\newblock {\em Computers{,} Environment and Urban Systems}, 27(5):481--509,
+  2003.
+
+\bibitem{CHAZDON}
+CHAZDON{,}~R{.} L{.}
+\newblock \textbf{Tropical forest recovery: legacies of human impact and
+  natural disturbances{.}}
+\newblock {\em Perspect Plant{.} Ecol Evol Syst}, pages 51–--71, 2003.
+
+\bibitem{CLARKE_elal97}
+CLARKE{,} K{.} C{.}{;} HOPPEN{,} S{.}{;}~GAYDOS{,} L{.}
+\newblock \textbf{A Self-modifying Cellular Automaton Model of Historical
+  Urbanization in the San Francisco Bay Area{.}}
+\newblock {\em Environment and Planning B: Planning and Design}, pages
+  247--261, 1997.
+
+\bibitem{CORMEN_etal90}
+CORMEN{,} T{.} T{.}{;} LEISERSON{,} C{.} E{.}{;} RIVEST{,}~R{.} L{.}
+\newblock {\em \textbf{Introduction to Algorithms{,}}}.
+\newblock MIT Press, Cambridge{,} MA{,} USA, 1990.
+
+\bibitem{GOMES_VELHO}
+GOMES{,} J{.}{;}~VELHO{,} L.
+\newblock \textbf{Abstraction Paradigms for Computer Graphics{.}}
+\newblock {\em The Visual Computer}, 11(5):227--239, 1995.
+
+\bibitem{WITTGENSTEIN}
+WITTGENSTEIN{,} L{.}
+\newblock {\em \textbf{Tractatus logico-philosophicus{.}}}
+\newblock Gallimard, Paris, 1961.
+
+\bibitem{LEAFLET}
+LEAFLET.
+\newblock {\em \textbf{Leaflet{.}js}}, 2015.
+\newblock http://leafletjs{.}com.
+
+\bibitem{ALMEIDA}
+ALMEIDA{{,}}~C{{.}} M{{.}}
+\newblock {\em \textbf{Modelagem da dinâmica espacial como uma ferramenta
+  auxiliar ao planejamento: simulação de mudanças de uso da terra em áreas
+  urbanas para as cidades de Bauru e Piracicaba (SP){,} Brasil}}.
+\newblock PhD thesis, Instituto Nacional de Pesquisas Espaciais, São José dos
+  Campos{,} SP{,} Brasil, 2003.
+
+\bibitem{ANGLINGER_GELBMANN}
+ANGLINGER{,} P{.}{;}~GELBMANN{,} M{.}
+\newblock {\em \textbf{MongoDB is the DBMS of the year, defending the title
+  from last year{.}}}, 2015.
+
+\bibitem{ARSANJANI_etal15}
+ARSANJANI{,} J{.}{;} ZIPF{,} A{.}{;} MOONEY{,} P{.}{;}~HELBICH{,} M{.}
+\newblock {\em \textbf{OpenStreetMap in GIScience: Experiences, Research, and
+  Applications}}.
+\newblock Springer, 2015.
+
+\bibitem{BARTOLOMEOLI}
+BARTOLOMEOLI{,} M.
+\newblock {\em \textbf{Advanced Security With GeoServer{.}}}, {FOSS4G} 2014
+  portland edition, 2014.
+\newblock https://vimeo{.}com/106221740.
+
+\bibitem{BATTY76}
+BATTY{,} M{.}
+\newblock {\em \textbf{Urban Modelling: Algorithms{,} Calibrations{,}
+  Predictions{.}}}
+\newblock Cambridge University Press, Cambridge{,} UK, 1976.
+
+\bibitem{BATTY84}
+BATTY{,} M{.}
+\newblock {\em \textbf{Pseudo-dynamic urban models{.}}}
+\newblock PhD thesis, University of Wales{,} Institute of Science and
+  Techlonogy, 1984.
+
+\bibitem{BERRY}
+BERRY{,}~D{.} M{.}
+\newblock {\em \textbf{Understanding Digital Humanities{.}}}
+\newblock Basingstoke Palgrave Macmillan, 2012.
+
+\bibitem{CASTELLS}
+CASTELLS{,} M{.}
+\newblock {\em \textbf{A Sociedade em Rede{.}}}
+\newblock Paz e Terra, São Paulo, 1999.
+
+\bibitem{CHODOROW_DIROLF}
+CHODOROW{,} K{.}{;}~DIROLF{,} M{.}
+\newblock {\em \textbf{MongoDB: The Definitive Guide{.}}}
+\newblock O'Reilly Media, USA, 2 edition, 2013.
+
+\bibitem{CAMARA_etal10}
+CÂMARA{{,}} G{{.}}{{;}} VINHAS{{,}} L{{.}}{{;}} QUEIROZ{{,}} G{{.}}
+  R{{.}}{{;}} FERREIRA{{,}} K{{.}} R{{.}}{{;}} MONTEIRO{{,}} A{{.}} M{.}{{;}}
+  CARVALHO{{,}} M{{.}}{{;}}~CASANOVA{{,}} M{{.}}
+\newblock {\em \textbf{TerraLib{{;}} An open-source GIS library for large-scale
+  environmental and socio-economic applications{.}}}
+\newblock Springer, 2010.
+
+\bibitem{EGENHOFER_91}
+EGENHOFER{,} M{.}
+\newblock \textbf{Extending SQL for cartographic display{.}}
+\newblock {\em Cartography and Geographic Information Systems}, pages 230--245,
+  1991.
+
+\bibitem{EGENHOFER_92}
+EGENHOFER{,} M{.}
+\newblock \textbf{Why not SQL!}
+\newblock {\em International Journal of Geographical Information Systems},
+  pages 71--85, 1992.
+
+\bibitem{MacEACHREN}
+MacEACHREN{,}~A{.} M{.}
+\newblock {\em \textbf{How Maps work: representation{,} visualization and
+  desing{.}}}
+\newblock Guilford Press, New York, 1 edition, 1995.
+
+\bibitem{MALONE}
+MALONE{,} M{.}
+\newblock {\em \textbf{How SimpleGeo Built a Scalable Geospatial Database with
+  Apache Cassandra{.}}}, 2012.
+\newblock http:// www{.}readwriteweb{.}com/cloud/2011/02/videosimplegeo-
+  cassandra{.}php.
+
+\bibitem{PIMENTA}
+PIMENTA~F{.} M{.}
+\newblock Desenvolvimento de interfaces para gerar mapas interativos baseados
+  em bancos de dados georreferenciados{.}
+\newblock Master's thesis, Universidade Federal de São João del-Rei, Sete
+  Lagoas, 2011.
+
+\bibitem{PREPARATA_SHAMOS}
+PREPARATA{,} F{.}{;}~SHAMOS{,} M{.}
+\newblock {\em \textbf{Computational Geometry{.}}}
+\newblock Springer, New York, 1985.
+
+\bibitem{SADALAGE_FOWLER}
+SADALAGE{,} P{.} J{.}{;}~FOWLER{,} M{.}
+\newblock {\em \textbf{NoSQL Distilled: A Brief Guide to the Emerging World of
+  Polyglot Persistence{.}}}
+\newblock Addison-Wesley Professional, 2012.
+
+\bibitem{SANTOS}
+SANTOS{,} M{.}
+\newblock {\em \textbf{Por uma Geografia Nova{.}}}
+\newblock Hucitec, São Paulo, 1978.
+
+\bibitem{SANTOS_96}
+SANTOS{,} M{.}
+\newblock {\em \textbf{A Natureza do Espaço: Técnica e Tempo{.} Razão e
+  Emoção{.}}}
+\newblock Hucitec, São Paulo, 1996.
+
+\bibitem{STONEBRAKER}
+STONEBRAKER{,} M{.}
+\newblock {\em \textbf{Object-relational DBMSs: the next great wave{.}}}
+\newblock Morgan Kaufmann, San Francisco, 1996.
+
+\bibitem{TURING}
+TURING{,}~A{.} M{.}
+\newblock \textbf{Computing machinery and intelligence{.}}
+\newblock {\em Mind}, pages 433--460, 1950.
+
+\bibitem{MAPBOX_GLJS}
+MAPBOX.
+\newblock {\em \textbf{Mapbox GL JS}}, 2016.
+\newblock https://www{.}mapbox{.}com/mapbox-gl-js/api/.
+
+\bibitem{MAPBOX_JS}
+MAPBOX.
+\newblock {\em \textbf{Mapbox{.}js}}, 2016.
+\newblock https://www{.}mapbox{.}com/mapbox{.}js/api/v2{.}4{.}0.
+
+\bibitem{QUATTROCCHI_GOODCHILD}
+Quattrochi{,} D.A{.}{;}~Goodchild{,} M{.}F{.}
+\newblock \textbf{Scale in Remote Sensing and GIS}.
+\newblock {\em CRC Press}, 1997.
+
+\bibitem{MICROSOFT}
+MICROSOFT.
+\newblock {\em \textbf{Delivering location intelligence with spatial data{.}}},
+  2008.
+\newblock http://www{.}microsoft{.}com.
+
+\bibitem{MYSQL}
+MYSQL.
+\newblock {\em \textbf{MySQL Spatial{.}}}, 2016.
+\newblock
+  http://dev{.}mysql{.}com/doc/refman/5{.}7/en/spatial-extensions{.}html.
+
+\bibitem{BAUMANN_etal99}
+BAUMANN{,} P{.}{;} DEHMEN{,} A{.}{;} FURTADO{,} P{.}{;} RITSCH{,}
+  R{.}{;}~WIDMANN{,} N{.}
+\newblock {\em \textbf{Spatio-Temporal Retrieval with RasDaMan{.}}}, 1999.
+\newblock http://www{.}vldb{.}org/conf/1999/P74{.}pdf{.} 1999.
+
+\bibitem{NPGSQL}
+NPGSQL.
+\newblock {\em \textbf{npgsql}}, 2016.
+\newblock http://www{.}npgsql{.}org.
+
+\bibitem{GAEDE_GUNTHER}
+GAEDE{,} V{.}{;}~GÜNTHER{,} O{.}
+\newblock \textbf{Multidimensional access methods{.}}
+\newblock {\em ACM Computing Surveys}, 30(2):170--231, 1998.
+
+\bibitem{OGIS}
+OGIS.
+\newblock {\em \textbf{OpenGIS simple features specification for SQL revision
+  1{.}1{.}}}, 1995.
+
+\bibitem{OPENBAY}
+OPENBAY.
+\newblock {\em \textbf{Openbay Project}}, 2015.
+\newblock
+  https://github{.}com/isohuntto/openbay/blob/master/src/protected/data/schema{.}mysql{.}sql.
+
+\bibitem{ORACLE}
+ORACLE.
+\newblock {\em \textbf{Oracle Spatial guide{.}}}, 2003.
+\newblock http://www{.}oracle{.}com.
+
+\bibitem{OSM}
+OSM.
+\newblock {\em \textbf{OpenStreetMap API{.}}}, 2016.
+
+\bibitem{BENENSON_TORRENS}
+BENENSON{,} I{.}{;}~TORRENS{,} P{.}
+\newblock {\em \textbf{Geosimulation: Automata based modeling of urban
+  phenomena{.}}}
+\newblock Wiley, 2004.
+
+\bibitem{CHEN}
+CHEN{,} P{.}
+\newblock \textbf{The entity-relationship model - toward a unified view of
+  data{.}}
+\newblock {\em ACM Transactions on Database Systems}, 1(1):9--36, 1976.
+
+\bibitem{COHEN}
+COHEN{,} P{.}
+\newblock {\em \textbf{Humanities 2{.}0: Digital keys for unlocking
+  humanities’ riches{.}}}, 2010.
+\newblock New York Times.
+
+\bibitem{HANSEN}
+HANSEN{,} P{.}
+\newblock {\em \textbf{GeoTools{,} GeoServer{,} GeoGit: A Case Study of Use in
+  Utility Field Work{.}}}, foss4g 2014 portland edition, 2015.
+\newblock http://vimeo{.}com/106844336.
+
+\bibitem{OBE_etal11}
+OBE{,} R{.}{;} HSU{,} L{.}{;}~RAMSEY{,} P{.}
+\newblock {\em \textbf{PostGIS in Action{.}}}
+\newblock Manning Publications, 1 edition, 2011.
+
+\bibitem{PETERSON}
+PETERSON{,}~M{.} P{.}
+\newblock {\em \textbf{Interactive and animated cartography{.}}}
+\newblock Prentice Hall, New York, 1995.
+
+\bibitem{WOLF}
+WOLF{,}~M{.} P{.}
+\newblock {\em \textbf{Philosophy of Language{.}}}, 2015.
+\newblock http://www{.}iep{.}utm{.}edu/lang-phi.
+
+\bibitem{GOMES}
+GOMES{,} P{.}C{.}C{.}
+\newblock {\em \textbf{Geografia e Modernidade{.}}}
+\newblock Bertrand Brasil, Rio de Janeiro, 10 edition, 2011.
+
+\bibitem{PMAPPER}
+PMAPPER.
+\newblock {\em \textbf{A MapServer PHP/MapScript Framework{.}}}, 2012.
+\newblock http://svn{.}pmapper{.}net/trac/wiki/PluginsQuery.
+
+\bibitem{POSTGIS}
+POSTGIS.
+\newblock {\em \textbf{Using PostGIS: Building Applications{.}}}, 2015.
+\newblock http://postgis.net/docs/manual-1.4/ch05.html\#id424349.
+
+\bibitem{ABITEBOUL}
+ABITEBOUL{,} S{.}{;}~HULL{,} R{.}
+\newblock \textbf{{IFO}: a formal semantic database model{.}}
+\newblock {\em ACM Transactions on Database Systems}, 12(4):525--565, 1987.
+
+\bibitem{ABRANTES}
+ABRANTES{,} G{.}~C{.} R{.}
+\newblock \textbf{Explicit representation of data that depend on topological
+  relationships and control over data consistency{.}}
+\newblock {\em Fifth European Conference and Exhibition on Geographical
+  Information Systems{.}}, 1994.
+
+\bibitem{CASANOVA_etal05}
+CASANOVA{,} M{.}{;} CÂMARA{,} G{.}{;} DAVIS{,} C{.}{;} VINHAS{,} L{.}{;}
+  QUEIROZ{,}~G{.} R{.}
+\newblock {\em \textbf{Bancos de Dados Geográficos{.}}}
+\newblock Editora Mundo Geo, Curitiba, 2005.
+
+\bibitem{HARTSHORNE}
+HARTSHORNE{,} R{.}
+\newblock {\em \textbf{The Nature of Geography{.}}}
+\newblock University of Minnesota Press, Minnesota, 1939.
+
+\bibitem{MATSUDA_LEA}
+MATSUDA{,} K{.}{;}~LEA{,} R{.}
+\newblock {\em \textbf{WebGL Programming Guide: Interactive 3D Graphics
+  Programming with WebGL{.}}}
+\newblock Addison-Wesley Professional, EUA, 2013.
+
+\bibitem{OOI_SAKIS_DAVIS}
+OOI{,} B{.}{;} SACKS-DAVIS{,} R{.}
+\newblock {\em \textbf{Query optimization in an extended DBMS{.} Third
+  International Conference on Foundations of Data Organization and Algorithms
+  ({FODO})}}.
+\newblock Springer, New York, 1989.
+
+\bibitem{PENROSE}
+PENROSE{,} R{.}
+\newblock {\em \textbf{The Emperor's New Mind: Concerning Computers{,} Minds{,}
+  and the Laws of Physics{.}}}
+\newblock Oxford University Press, Oxford, 1989.
+
+\bibitem{QUEIROZ_FERREIRA}
+QUEIROZ{,} G{.} B{.}{;} FERREIRA{,}~K{.} R{.}
+\newblock {\em \textbf{Tutorial sobre Bancos de Dados Geográficos{.}}}
+\newblock Instituto Nacional de Pesquisas Espaciais - INPE, 2006.
+
+\bibitem{REDMOND_WILSON}
+REDMOND{,} E{.}{;} WILSON{,}~J{.} R{.}
+\newblock {\em \textbf{Seven Databases in Seven Weeks: A Guide to Modern
+  Databases and the NoSQL Movement{.}}}
+\newblock Pragmatic Bookshelf, 2012.
+
+\bibitem{SLUTER}
+SLUTER{,}~C{.} R{.}
+\newblock \textbf{Sistemas especialistas para a geração de mapas
+  temáticos{.}}
+\newblock {\em Revista Brasileira de Cartografia}, (53):45--64, 2001.
+
+\bibitem{SUERTEGARAY_NUNES}
+SUERTEGARAY{,} D{.} M{.} A{.}{;} NUNES{,} J{.}~O{.} R{.}
+\newblock \textbf{A natureza da geografia física na geografia{.}}
+\newblock {\em Terra Livre}, (17):11--24, 2001.
+
+\bibitem{BAPTISTA_etal11}
+BAPTISTA{,} C{.} S{.}{;} LIMA JUNIOR{,} O{.} F{.}{;} OLIVEIRA{,} M{.} G{.}{;}
+  ANDRADE{,} F{.} G{.}{;} SILVA{,} T{.} E{.}{;} PIRES{,} C{.}~E{.} S{.}
+\newblock \textbf{Using OGC Services to Interoperate Spatial Data Stored in SQL
+  and NoSQL Databases{.}}
+\newblock {\em SIMPÓSIO BRASILEIRO DE GEOINFORMÁTICA (GEOINFO)}, pages
+  61--72, 2011.
+
+\bibitem{CUDRE-MAUROUX_etal09}
+CUDRE-MAUROUX{,} P{.}{;} KIMURA{,} H{.}{;} LIM{,} K{.} T{.}{;} ROGERS{,}
+  J{.}{;} SIMAKOV{,} R{.}{;} SOROUSH{,} E{.}{;} VELIKHOV{,} P{.}{;} WANG{,}
+  D{.} L{.}{;} BALAZINSKA{,} M{.}{;} BECLA{,} J{.}{;} DEWITT{,} D{.}{;}
+  HEATH{,} B{.}{;} MAIER{,} D{.}{;} MADDEN{,} S{.}{;} PATEL{,} J{.}{;}
+  STONEBRAKER{,} M{.}{;}~ZDONIK{,} S{.}
+\newblock \textbf{A demonstration of scidb: a science oriented dbms{.}}
+\newblock {\em Proc{.} VLDB Endow}, 2(2):1534--1537, 2009.
+
+\bibitem{DAVIS_07}
+DAVIS{,} S{.}
+\newblock {\em \textbf{GIS for Web developers{.}}}
+\newblock The Pragmatic Programmers LLC, 2007.
+
+\bibitem{GIANNECCHINI}
+GIANNECCHINI{,} S{.}
+\newblock {\em \textbf{Introduction To High Availability Clusters With
+  GeoServer And GeoWebCache{.}}}, foss4g 2013 nottingham edition, 2013.
+\newblock http://2013{.}foss4g{.}org/conf/programme/freeworkshops{.}html.
+
+\bibitem{OOSTEROM_ZLATANOVA}
+OOSTEROM{,} P{.} V{.}{;}~ZLATANOVA{,} S{.}
+\newblock {\em \textbf{Creating Spatial Information Infrastructures: Towards
+  the Spatial Semantic Web{.}}}
+\newblock CRC Press, 2008.
+
+\bibitem{OPENSHAW}
+OPENSHAW{,} S{.}
+\newblock {\em \textbf{GeoComputation}}.
+\newblock CRC Press, 2014.
+
+\bibitem{PEREZ}
+PEREZ{,}~A{.} S{.}
+\newblock {\em \textbf{OpenLayers Cookbook: 60 recipes to create GIS web
+  applications with the open source JavaScript library{.}}}
+\newblock Packt Publishing, Birmingham, 2012.
+
+\bibitem{SEABRA}
+SEABRA{,}~V{.} S{.}
+\newblock {\em \textbf{Análise da paisagem em apoio aos estudos de
+  favorabilidade à recuperação florestal na bacia hidrográfica do rio São
+  João{.}}}
+\newblock PhD thesis, Programa de Pós Graduação em Geografia – PPGG{,}
+  Universidade Federal do Rio de Janeiro, Rio de Janeiro, 2012.
+
+\bibitem{SHEKHAR_CHAWLA}
+SHEKHAR{,} S{.}{;}~CHAWLA{,} S{.}
+\newblock {\em \textbf{Spatial databases: A tour{.}}}
+\newblock Prentice Hall, 2003.
+
+\bibitem{SHEKHAR_etal97}
+SHEKHAR{,} S{.}{;} COYLE{,} M{.}{;} GOYAL{,} B{.}{;} LIU{,} D{.}{;}~SARKAR{,}
+  S{.}
+\newblock \textbf{Data models in geographic information systems{.}}
+\newblock {\em Communications of the ACM}, 40(4):103--111, 1997.
+
+\bibitem{WANG_WANG}
+WANG{,} Y{.}{;}~WANG{,} S{.}
+\newblock \textbf{Research and implementation on spatial data storage and
+  operation based on Hadoop platform{.}}
+\newblock {\em International Conference on Geoscience and Remote Sensing},
+  pages 275--278, 2010.
+
+\bibitem{SHARPMAP}
+SHARPMAP.
+\newblock {\em \textbf{SharpMap{.}NET{.}}}, 2015.
+\newblock https://sharpmap{.}codeplex{.}com.
+
+\bibitem{SOTCHAVA}
+V.~B. SOTCHAVA.
+\newblock {\em \textbf{Introducción a la doctrina sobre los geosistemas. }}.
+\newblock Nauka, Novosibirsk, 1978.
+
+\bibitem{BODENHAMER_etal10}
+BODENHAMER D{.} J{.}{,} CORRIGAN J{.}{,}~HARRIS T{.}
+\newblock {\em \textbf{The Spatial Humanities: GIS and the Future of Humanities
+  Scholarship{.}}}
+\newblock Indiana University Press, Bloomington{,} IN, 2010.
+
+\bibitem{KERR}
+KERR{,}~N{.} T{.}
+\newblock {\em \textbf{Alternative Approaches to Parallel GIS Processing{.}}},
+  2012.
+
+\bibitem{KUNICKI}
+KUNICKI{,} T{.}
+\newblock {\em \textbf{WPS With GeoServer{.}}}, {FOSS4G} 2013 nottingham
+  edition, 2013.
+\newblock http://2013{.}foss4g{.}org/conf/programme/freeworkshops{.}html.
+
+\bibitem{ROUSSOPOULOS_etal88}
+ROUSSOPOULOS{,} N{.}{,} FALOUTSOS{,} C{.}{;}~SELLIS{,} T{.}
+\newblock \textbf{An efficient pictorial database system for PSQL{.}}
+\newblock {\em IEEE Transactions on Software Engineering}, pages 630--638,
+  1988.
+
+\bibitem{SCHAUB}
+SCHAUB{,} T{.}
+\newblock {\em \textbf{Getting started with OpenLayers 3{.}}}, {FOSS4G} 2014
+  portland edition, 2014.
+\newblock https://vimeo{.}com/106227909.
+
+\bibitem{TANGRAM}
+TANGRAM.
+\newblock {\em \textbf{Mapzen Tangram{.}}}, 2016.
+\newblock https://github{.}com/tangrams/tangram.
+
+\bibitem{QGIS}
+QUANTUM GIS~DEVELOPMENT TEAM.
+\newblock {\em \textbf{Quantum GIS Geographic Information System{.} Open Source
+  Geospatial Foundation Project{.}}}, 2012.
+\newblock http://qgis{.}osgeo{.}org.
+
+\bibitem{TERADATA}
+TERADATA.
+\newblock {\em \textbf{Teradata Geospatial Feature{.}}}, 2016.
+\newblock
+  http://br{.}teradata{.}com/Resources/Demos/Teradata-Geospatial-FeaturesOverview/?LangType=1046\&LangSelect=true.
+
+\bibitem{FRANK}
+FRANK{,}~A{.} U{.}
+\newblock {\em \textbf{Ontology for Spatial-temporal Databases{.}}}
+\newblock Springer, Berlin, 2003.
+
+\bibitem{BIVAND_etal13}
+BIVAND{,} R{.} S{.}{;} PEBESMA{,} E{.}{;} GÓMEZ-RUBIO{,} V{.}
+\newblock {\em \textbf{Applied Spatial Data Analysis with R{.}}}
+\newblock Springer, 2ed edition, 2013.
+
+\bibitem{CAMARA_etal04}
+CÂMARA{,} G{.}{;} DAVIS{,} C{.}{;} MONTEIRO{,} A{.}~M{.} V{.}
+\newblock {\em \textbf{Introdução à Ciência da Geoinformação{.}}}
+\newblock Instituto Nacional de Pesquisas Espaciais, São José dos Campos,
+  2004.
+
+\bibitem{AGARWAL}
+GARWAL{,}~V{,} V{.}
+\newblock {\em \textbf{Beginning C\# 5{.}0 Databases}}.
+\newblock Apress, EUA, 2012.
+
+\bibitem{INGRAM_PHILLIPS}
+INGRAM{,} K{.}{;}~PHILLIPS{,} W{.}
+\newblock \textbf{Geographic information processing using a SQL-based query
+  language{.}}
+\newblock {\em Proceedings of AUTO-CARTO 8{,} Eighth International Symposium on
+  Computer-Assisted Cartography{,} Baltimore}, pages 326--335, 1987.
+
+\bibitem{LONGLEY_etal13}
+LONGLEY{,} P{.} A{.}{,} GOODCHILD{,} M{.} F{.}{,} MAGUIRE{,} D{.} J{.}{,}
+  RHIND{,}~D{.} W{.}
+\newblock {\em \textbf{Sistemas e Ciência da Informação Geográfica}}.
+\newblock Bookman, Porto Alegre, 3 edition, 2013.
+
+\bibitem{PORTO_GONCALVES}
+PORTO-GONÇALVES{,}~C{.} W{.}
+\newblock {\em \textbf{Os (des)caminhos do meio ambiente{.}}}
+\newblock Contexto, São Paulo, 14 edition, 2006.
+
+\bibitem{RUMBAUGH_etal91}
+RUMBAUGH{,} J{.}{;} BLAHA{,} M{.}{;} PREMERLANI{,} W{.}{;} EDDY{,}
+  F{.}{;}~LORENSEN{,} W{.}
+\newblock {\em \textbf{Object-oriented Modeling and Design{.}}}
+\newblock Prentice-Hall, 1991.
+
+\bibitem{SOARES_FILHO_etal09}
+SOARES-FILHO{,} B{.}{;} RODRIGUES{,} H{.}{;}~LELLES{,} W{.}
+\newblock {\em \textbf{Modeling Environmental Dynamics with Dinamica EGO{.}}}
+\newblock CSR, Belo Horizonte, 1 edition, 2009.
+
+\bibitem{TOBLER}
+TOBLER{,} W{.}
+\newblock \textbf{A computer movie simulating urban growth in the Detroit
+  region{.}}
+\newblock {\em Economic Geography}, 46(2):234--240, 1970.
+
+\bibitem{SIEBER_etal11}
+SIEBER{,} R{.} E{.}{;} WELLEN{,} C{.} C{.}{,}~JIN Y{.}
+\newblock \textbf{Spatial cyberinfrastructures{,} ontologies{,} and the
+  humanities{.}}
+\newblock {\em Proceedings of the National Academy of Science}, pages
+  5504–--5509, 2011.
 
 \end{thebibliography}
