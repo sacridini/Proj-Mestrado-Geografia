@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  21 FEB 2018 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  5 MAR 2018 22:29
 entering extended mode
 **./main.tex
 (main.tex
@@ -687,12 +687,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<../Projetos/TeX/mestrado/data/BHRSJ_2.jpg, id=51, 466.74374pt x 328.22626pt>
-File: ../Projetos/TeX/mestrado/data/BHRSJ_2.jpg Graphic file (type jpg)
-
-<use ../Projetos/TeX/mestrado/data/BHRSJ_2.jpg>
-Package pdftex.def Info: ../Projetos/TeX/mestrado/data/BHRSJ_2.jpg used on inpu
-t line 16.
+<data/BHRSJ_2.jpg, id=51, 466.74374pt x 328.22626pt>
+File: data/BHRSJ_2.jpg Graphic file (type jpg)
+ <use data/BHRSJ_2.jpg>
+Package pdftex.def Info: data/BHRSJ_2.jpg used on input line 16.
 (pdftex.def)             Requested size: 407.66833pt x 286.69643pt.
 )
 Underfull \hbox (badness 10000) in paragraph at lines 22--128
@@ -701,8 +699,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--128
 
 [14
 
-] [15 <C:/Users/eduardo/Documents/Projetos/TeX/mestrado/data/BHRSJ.jpg> <../Pro
-jetos/TeX/mestrado/data/BHRSJ_2.jpg>] [16
+] [15 <C:/Users/eduardo/Documents/Projetos/TeX/mestrado/data/BHRSJ.jpg> <./data
+/BHRSJ_2.jpg>] [16
 
 ] (pesq_operacional.tex
 Cap\'{\i }tulo 3.
@@ -1317,8 +1315,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [119])
 [120] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 6203 strings out of 493323
- 86546 string characters out of 3139059
+ 6202 strings out of 493323
+ 86416 string characters out of 3139059
  215867 words of memory out of 3000000
  9569 multiletter control sequences out of 15000+200000
  11193 words of font info for 39 fonts, out of 3000000 for 9000
