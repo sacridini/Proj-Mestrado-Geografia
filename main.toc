@@ -23,7 +23,7 @@
 \contentsline {subsection}{\numberline {6.8.6}Outras possibilidades}{40}
 \contentsline {section}{\numberline {6.9}Arquiteturas e linguagens}{41}
 \contentsline {subsection}{\numberline {6.9.1}Sistemas de ger\IeC {\^e}ncia de banco de dados relacionais}{42}
-\contentsline {subsection}{\numberline {6.9.2}A Structured Query Language (SQL)}{43}
+\contentsline {subsection}{\numberline {6.9.2}A Structured Query Language (SQL)}{45}
 \contentsline {subsection}{\numberline {6.9.3}Integra\IeC {\c c}\IeC {\~a}o de arquiteturas SIG e SGBD}{48}
 \contentsline {subsection}{\numberline {6.9.4}Web arquiteturas de um mundo geogr\IeC {\'a}fico}{53}
 \contentsline {subsection}{\numberline {6.9.5}A import\IeC {\^a}ncia dos metadados}{56}

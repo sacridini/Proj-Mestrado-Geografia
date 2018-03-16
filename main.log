@@ -1,12 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.17)  14 MAR 2018 18:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.12.3)  16 MAR 2018 00:11
 entering extended mode
-**./main.tex
-(main.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk12.clo"
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,41 +24,41 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
-)
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-portuges\portuges.
-ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
- ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `Portuguese' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for english instead on input line 55.
+
+\l@portuges = a dialect from \language0
 \l@brazilian = a dialect from \language\l@portuges 
 Package babel Info: Making " an active character on input line 145.
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -268,8 +270,6 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -290,14 +290,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -337,8 +335,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -361,31 +359,31 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 96.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -393,13 +391,13 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks17
 \AP@partial=\box26
 \AP@footins=\box27
 )
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen106
 \WF@size=\dimen107
 \c@WF@wrappedlines=\count90
@@ -407,16 +405,16 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \WF@everypar=\toks18
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
-Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count91
@@ -425,28 +423,28 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box29
 \rot@mess@toks=\toks19
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -455,12 +453,12 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -473,8 +471,12 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count92
 \float@exts=\toks20
@@ -482,14 +484,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box31
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count93
@@ -504,22 +506,19 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen114
 \Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks22
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip45
-\f@nch@O@elh=\skip46
-\f@nch@O@erh=\skip47
-\f@nch@O@olh=\skip48
-\f@nch@O@orh=\skip49
-\f@nch@O@elf=\skip50
-\f@nch@O@erf=\skip51
-\f@nch@O@olf=\skip52
-\f@nch@O@orf=\skip53
 )
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count96
 \lst@gtempboxa=\box32
 \lst@token=\toks23
@@ -533,35 +532,34 @@ s
 \lst@lineno=\count101
 \lst@maxwidth=\dimen119
 
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count102
 \lst@skipnumbers=\count103
 \lst@framebox=\box33
 )
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 144.
 )
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-(main.aux)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -577,7 +575,7 @@ LaTeX Font Info:    ... okay on input line 57.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
 
-(C:\Users\eduardo\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen120
@@ -627,6 +625,12 @@ LaTeX Font Info:    ... okay on input line 57.
 
 \c@lstlisting=\count110
 
+Overfull \hbox (20.06561pt too wide) in paragraph at lines 70--73
+\OT1/cmr/m/n/17.28 A Uti-liza^^Xc~ao de Banco de Da-dos Ge-ogr^^Saficos pela Ge
+-ografia Brasileira.
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 70--73
 
  []
@@ -639,55 +643,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--73
 [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 120.
- [3] (main.toc
-[4
+
+[3] (./main.toc [4
 
 ])
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [5] (main.lof [6
+ [5] (./main.lof [6
 
-])
+]
+Overfull \hbox (8.31071pt too wide) in paragraph at lines 47--47
+ [][] []\OT1/cmr/m/n/12 Diagrama com as fer-ra-men-tas de an^^Salise, lin-gua-g
+ens, re-cur-sos, suas conex~oes, 
+ []
+
+)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
  [7] [8] [9] [10
 
-] (intro.tex
+] (./intro.tex
 Cap\'{\i }tulo 1.
 [11
 
-] [12]) (area_estudo.tex [13]
+] [12]) (./area_estudo.tex [13]
 Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-
-<C:/Users/eduardo/Documents/Projetos/TeX/mestrado/data/BHRSJ.jpg, id=50, 471.26
-062pt x 323.70938pt>
-File: C:/Users/eduardo/Documents/Projetos/TeX/mestrado/data/BHRSJ.jpg Graphic f
-ile (type jpg)
-
-<use C:/Users/eduardo/Documents/Projetos/TeX/mestrado/data/BHRSJ.jpg>
-Package pdftex.def Info: C:/Users/eduardo/Documents/Projetos/TeX/mestrado/data/
-BHRSJ.jpg used on input line 6.
+<data/BHRSJ.jpg, id=51, 471.26062pt x 323.70938pt>
+File: data/BHRSJ.jpg Graphic file (type jpg)
+ <use data/BHRSJ.jpg>
+Package pdftex.def Info: data/BHRSJ.jpg used on input line 6.
 (pdftex.def)             Requested size: 407.66833pt x 280.02945pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<data/BHRSJ_2.jpg, id=51, 466.74374pt x 328.22626pt>
+<data/BHRSJ_2.jpg, id=52, 466.74374pt x 328.22626pt>
 File: data/BHRSJ_2.jpg Graphic file (type jpg)
  <use data/BHRSJ_2.jpg>
 Package pdftex.def Info: data/BHRSJ_2.jpg used on input line 16.
@@ -699,15 +704,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--155
 
 [14
 
-] [15 <C:/Users/eduardo/Documents/Projetos/TeX/mestrado/data/BHRSJ.jpg> <./data
-/BHRSJ_2.jpg>] [16
+] [15 <./data/BHRSJ.jpg> <./data/BHRSJ_2.jpg>] [16
 
-] (pesq_operacional.tex
+] (./pesq_operacional.tex
 Cap\'{\i }tulo 3.
 
-Overfull \hbox (3.05792pt too wide) in paragraph at lines 10--11
-\OT1/cmr/m/n/12 Tenta mos-trar tambem como a in-flu^encia do de-sen-vol-vi-men
-to do pen-sa-mento ge-os-sist^emico
+Overfull \hbox (32.16734pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/12 Al^^Sem disso, tal bib-li-ografia busca en-ten-der como as re
+la^^Xc~oes epis-te-mol^^Sogicas e paradigm^^Saticas
  []
 
 [17
@@ -718,8 +722,8 @@ Cap\'{\i }tulo 4.
 
 ]
 Overfull \hbox (4.10106pt too wide) in paragraph at lines 27--28
-[]\OT1/cmr/m/n/12 O au-mento sig-ni-fi-ca-tivo da ca-pa-ci-dade de pro-ces-sa-m
-ento dos com-pu-ta-do-res domesticos,
+[]\OT1/cmr/m/n/12 O au-mento sig-ni-fica-tivo da ca-paci-dade de pro-ces-sa-men
+to dos com-puta-dores dom^^Sesticos,
  []
 
 [20] [21] [22]
@@ -730,15 +734,20 @@ Cap\'{\i }tulo 5.
 Cap\'{\i }tulo 6.
 [25
 
-] [26] [27] <data/blue_marble.png, id=96, 384.9582pt x 384.9582pt>
+] [26] [27] <data/blue_marble.png, id=97, 384.9582pt x 384.9582pt>
 File: data/blue_marble.png Graphic file (type png)
 
 <use data/blue_marble.png>
 Package pdftex.def Info: data/blue_marble.png used on input line 91.
 (pdftex.def)             Requested size: 407.66833pt x 407.68369pt.
- [28 <./data/blue_marble.png>] [29] [30] [31]
-[32] [33]
-<data/paradigma_quatro_universos.png, id=118, 469.755pt x 106.9596pt>
+ [28 <./data/blue_marble.png>] [29] [30]
+Overfull \hbox (5.2418pt too wide) in paragraph at lines 128--129
+\OT1/cmr/m/n/12 tre \OT1/cmr/m/it/12 nerds \OT1/cmr/m/n/12 e po-etas (CO-HEN, 2
+010)[[]], rep-re-senta um mo-mento de mu-dan^^Xca metodol^^Sogico
+ []
+
+[31] [32] [33]
+<data/paradigma_quatro_universos.png, id=119, 469.755pt x 106.9596pt>
 File: data/paradigma_quatro_universos.png Graphic file (type png)
 
 <use data/paradigma_quatro_universos.png>
@@ -780,27 +789,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
-[35] [36] <data/omtg_classes.png, id=129, 365.2044pt x 217.7736pt>
+[35] [36] <data/omtg_classes.png, id=130, 365.2044pt x 217.7736pt>
 File: data/omtg_classes.png Graphic file (type png)
 
 <use data/omtg_classes.png>
 Package pdftex.def Info: data/omtg_classes.png used on input line 222.
 (pdftex.def)             Requested size: 452.9679pt x 270.11621pt.
- <data/geocampos.png, id=130, 469.755pt x 93.951pt>
+ <data/geocampos.png, id=131, 469.755pt x 93.951pt>
 File: data/geocampos.png Graphic file (type png)
 
 <use data/geocampos.png>
 Package pdftex.def Info: data/geocampos.png used on input line 231.
 (pdftex.def)             Requested size: 452.9679pt x 90.59334pt.
  [37 <./data/omtg_classes.png>]
-<data/geoobjetos.png, id=136, 319.4334pt x 231.264pt>
+<data/geoobjetos.png, id=137, 319.4334pt x 231.264pt>
 File: data/geoobjetos.png Graphic file (type png)
 
 <use data/geoobjetos.png>
 Package pdftex.def Info: data/geoobjetos.png used on input line 238.
 (pdftex.def)             Requested size: 407.66833pt x 295.16646pt.
 
-<data/relacionamentos.png, id=137, 444.2196pt x 181.6386pt>
+<data/relacionamentos.png, id=138, 444.2196pt x 181.6386pt>
 File: data/relacionamentos.png Graphic file (type png)
 
 <use data/relacionamentos.png>
@@ -811,14 +820,14 @@ Package pdftex.def Info: data/relacionamentos.png used on input line 249.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [38 <./data/geocampos.png> <./data/geoobjetos.png>]
-<data/cardinalidade.png, id=143, 364.2408pt x 160.9212pt>
+<data/cardinalidade.png, id=144, 364.2408pt x 160.9212pt>
 File: data/cardinalidade.png Graphic file (type png)
 
 <use data/cardinalidade.png>
 Package pdftex.def Info: data/cardinalidade.png used on input line 260.
 (pdftex.def)             Requested size: 452.9679pt x 200.13199pt.
 
-<data/relac_topologicos.png, id=144, 469.755pt x 275.1078pt>
+<data/relac_topologicos.png, id=145, 469.755pt x 275.1078pt>
 File: data/relac_topologicos.png Graphic file (type png)
 
 <use data/relac_topologicos.png>
@@ -829,7 +838,7 @@ Package pdftex.def Info: data/relac_topologicos.png used on input line 271.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39 <./data/relacionamentos.png> <./data/cardinalidade.png>]
-<data/generalizacao_especializacao.png, id=150, 443.256pt x 133.9404pt>
+<data/generalizacao_especializacao.png, id=151, 443.256pt x 133.9404pt>
 File: data/generalizacao_especializacao.png Graphic file (type png)
 
 <use data/generalizacao_especializacao.png>
@@ -837,28 +846,33 @@ Package pdftex.def Info: data/generalizacao_especializacao.png used on input li
 ne 282.
 (pdftex.def)             Requested size: 452.9679pt x 136.8749pt.
  [40 <./data/relac_topologicos.png> <./data/generalizacao_especializacao.png>]
-<data/agregacao_espacial.png, id=156, 307.3884pt x 53.4798pt>
+<data/agregacao_espacial.png, id=157, 307.3884pt x 53.4798pt>
 File: data/agregacao_espacial.png Graphic file (type png)
 
 <use data/agregacao_espacial.png>
 Package pdftex.def Info: data/agregacao_espacial.png used on input line 291.
 (pdftex.def)             Requested size: 452.9679pt x 78.811pt.
- [41 <./data/agregacao_espacial.png>] [42]
-<data/requisitos_SGBD.png, id=164, 469.755pt x 328.5876pt>
+ [41 <./data/agregacao_espacial.png>]
+Overfull \hbox (10.29407pt too wide) in paragraph at lines 315--316
+[]\OT1/cmr/m/n/12 O de-sen-volvi-mento da tec-nolo-gia de in-dexa^^Xc~ao prin-c
+i-pal-mente em ^^Sarvores-b (COMER,
+ []
+
+[42] <data/requisitos_SGBD.png, id=165, 469.755pt x 328.5876pt>
 File: data/requisitos_SGBD.png Graphic file (type png)
 
 <use data/requisitos_SGBD.png>
 Package pdftex.def Info: data/requisitos_SGBD.png used on input line 328.
 (pdftex.def)             Requested size: 452.9679pt x 316.84438pt.
 
-<data/princ_tec_SGBD_1.png, id=165, 469.755pt x 154.176pt>
+<data/princ_tec_SGBD_1.png, id=166, 469.755pt x 154.176pt>
 File: data/princ_tec_SGBD_1.png Graphic file (type png)
 
 <use data/princ_tec_SGBD_1.png>
 Package pdftex.def Info: data/princ_tec_SGBD_1.png used on input line 336.
 (pdftex.def)             Requested size: 452.9679pt x 148.66595pt.
 
-<data/princ_tec_SGBD_2.png, id=166, 469.755pt x 161.403pt>
+<data/princ_tec_SGBD_2.png, id=167, 469.755pt x 161.403pt>
 File: data/princ_tec_SGBD_2.png Graphic file (type png)
 
 <use data/princ_tec_SGBD_2.png>
@@ -866,14 +880,14 @@ Package pdftex.def Info: data/princ_tec_SGBD_2.png used on input line 343.
 (pdftex.def)             Requested size: 452.9679pt x 155.6347pt.
  [43 <./data/requisitos_SGBD.png>] [44 <./data/princ_tec_SGBD_1.png> <./data/pr
 inc_tec_SGBD_2.png>]
-<data/sql_history.png, id=177, 469.755pt x 279.444pt>
+<data/sql_history.png, id=178, 469.755pt x 279.444pt>
 File: data/sql_history.png Graphic file (type png)
 
 <use data/sql_history.png>
 Package pdftex.def Info: data/sql_history.png used on input line 358.
 (pdftex.def)             Requested size: 452.9679pt x 269.45709pt.
  [45 <./data/sql_history.png>] [46]
-<data/comandos_sql.png, id=185, 466.8642pt x 251.4996pt>
+<data/comandos_sql.png, id=186, 466.8642pt x 251.4996pt>
 File: data/comandos_sql.png Graphic file (type png)
 
 <use data/comandos_sql.png>
@@ -883,7 +897,7 @@ Package pdftex.def Info: data/comandos_sql.png used on input line 401.
 Underfull \vbox (badness 3849) has occurred while \output is active []
 
  [47]
-<data/arquitetura_dua_integrada.png, id=190, 469.755pt x 213.4374pt>
+<data/arquitetura_dua_integrada.png, id=191, 469.755pt x 213.4374pt>
 File: data/arquitetura_dua_integrada.png Graphic file (type png)
 
 <use data/arquitetura_dua_integrada.png>
@@ -897,7 +911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 424.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -926,27 +940,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 434--436
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
  [49 <./data/arquitetura_dua_integrada.png>]
-<data/sfs-sql.png, id=200, 469.755pt x 249.0906pt>
+<data/sfs-sql.png, id=201, 469.755pt x 249.0906pt>
 File: data/sfs-sql.png Graphic file (type png)
  <use data/sfs-sql.png>
 Package pdftex.def Info: data/sfs-sql.png used on input line 448.
 (pdftex.def)             Requested size: 452.9679pt x 240.18848pt.
 
-[50 <./data/sfs-sql.png>] <data/arvore_r.png, id=205, 469.755pt x 251.4996pt>
+[50 <./data/sfs-sql.png>] <data/arvore_r.png, id=207, 469.755pt x 251.4996pt>
 File: data/arvore_r.png Graphic file (type png)
 
 <use data/arvore_r.png>
 Package pdftex.def Info: data/arvore_r.png used on input line 478.
 (pdftex.def)             Requested size: 452.9679pt x 242.51138pt.
- [51 <./data/arvore_r.png>] [52] [53]
-<data/pedido-resposta.png, id=216, 426.8748pt x 133.4586pt>
+ [51] [52 <./data/arvore_r.png>] [53] [54]
+<data/pedido-resposta.png, id=221, 426.8748pt x 133.4586pt>
 File: data/pedido-resposta.png Graphic file (type png)
 
 <use data/pedido-resposta.png>
 Package pdftex.def Info: data/pedido-resposta.png used on input line 511.
 (pdftex.def)             Requested size: 452.9679pt x 141.62631pt.
- [54] [55 <./data/pedido-resposta.png>] [56]
-[57] <data/sigweb_developer_side.png, id=231, 405.1938pt x 268.8444pt>
+ [55 <./data/pedido-resposta.png>] [56] [57]
+<data/sigweb_developer_side.png, id=233, 405.1938pt x 268.8444pt>
 File: data/sigweb_developer_side.png Graphic file (type png)
 
 <use data/sigweb_developer_side.png>
@@ -954,7 +968,7 @@ Package pdftex.def Info: data/sigweb_developer_side.png used on input line 564.
 
 (pdftex.def)             Requested size: 452.9679pt x 300.54578pt.
 
-<data/sigweb_cartografico_side.png, id=232, 404.2302pt x 299.1978pt>
+<data/sigweb_cartografico_side.png, id=234, 404.2302pt x 299.1978pt>
 File: data/sigweb_cartografico_side.png Graphic file (type png)
 
 <use data/sigweb_cartografico_side.png>
@@ -963,29 +977,34 @@ Package pdftex.def Info: data/sigweb_cartografico_side.png used on input line 5
 (pdftex.def)             Requested size: 452.9679pt x 335.27728pt.
  [58 <./data/sigweb_developer_side.png>] [59 <./data/sigweb_cartografico_side.p
 ng>]
-<data/ranking_github.png, id=241, 468.7914pt x 269.808pt>
+<data/ranking_github.png, id=243, 468.7914pt x 269.808pt>
 File: data/ranking_github.png Graphic file (type png)
 
 <use data/ranking_github.png>
 Package pdftex.def Info: data/ranking_github.png used on input line 584.
 (pdftex.def)             Requested size: 452.9679pt x 260.70479pt.
  [60 <./data/ranking_github.png>] [61]
-<data/prerequisitos_mapping_servers.png, id=250, 469.755pt x 131.5314pt>
+Overfull \hbox (18.43019pt too wide) in paragraph at lines 619--620
+\OT1/cmr/m/n/12 Fea-ture-Server (FEA-TURE-SERVER, 2015)[[]] e o SharpMap.NET (S
+HARPMAP, 2015)[[]].
+ []
+
+[62] <data/prerequisitos_mapping_servers.png, id=255, 469.755pt x 131.5314pt>
 File: data/prerequisitos_mapping_servers.png Graphic file (type png)
 
 <use data/prerequisitos_mapping_servers.png>
 Package pdftex.def Info: data/prerequisitos_mapping_servers.png used on input l
 ine 623.
 (pdftex.def)             Requested size: 452.9679pt x 126.83066pt.
- [62]
-<data/geoserver_gui.png, id=254, 469.755pt x 274.626pt>
+
+<data/geoserver_gui.png, id=256, 469.755pt x 274.626pt>
 File: data/geoserver_gui.png Graphic file (type png)
 
 <use data/geoserver_gui.png>
 Package pdftex.def Info: data/geoserver_gui.png used on input line 668.
 (pdftex.def)             Requested size: 452.9679pt x 264.81128pt.
 
-<data/suporte_webservices.png, id=255, 469.755pt x 151.767pt>
+<data/suporte_webservices.png, id=257, 469.755pt x 151.767pt>
 File: data/suporte_webservices.png Graphic file (type png)
 
 <use data/suporte_webservices.png>
@@ -993,15 +1012,19 @@ Package pdftex.def Info: data/suporte_webservices.png used on input line 677.
 (pdftex.def)             Requested size: 452.9679pt x 146.34306pt.
  [63 <./data/prerequisitos_mapping_servers.png>] [64] [65 <./data/geoserver_gui
 .png> <./data/suporte_webservices.png>]
-<data/compatibilidade_formatos.png, id=268, 469.755pt x 244.7544pt>
+<data/compatibilidade_formatos.png, id=270, 469.755pt x 244.7544pt>
 File: data/compatibilidade_formatos.png Graphic file (type png)
 
 <use data/compatibilidade_formatos.png>
 Package pdftex.def Info: data/compatibilidade_formatos.png used on input line 6
 90.
 (pdftex.def)             Requested size: 452.9679pt x 236.00723pt.
- [66] [67 <./data/compatibilidade_formatos.png>] <data/openlayers.png, id=277, 
-469.755pt x 183.5658pt>
+
+Underfull \vbox (badness 2707) has occurred while \output is active []
+
+ [66]
+[67 <./data/compatibilidade_formatos.png>]
+<data/openlayers.png, id=279, 469.755pt x 183.5658pt>
 File: data/openlayers.png Graphic file (type png)
 
 <use data/openlayers.png>
@@ -1010,7 +1033,7 @@ Package pdftex.def Info: data/openlayers.png used on input line 709.
  [68 <./data/openlayers.png>]) [69] [70
 
 ]
-(materiais_e_metodos.tex
+(./materiais_e_metodos.tex
 Cap\'{\i }tulo 7.
 [71
 
@@ -1021,25 +1044,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
 [73]) [74] [75
 
-] (resultados.tex
+] (./resultados.tex
 Cap\'{\i }tulo 8.
 [76
 
-] <data/modelo_OMT-G_final.png, id=307, 649.4664pt x 371.4678pt>
+] <data/modelo_OMT-G_final.png, id=309, 649.4664pt x 371.4678pt>
 File: data/modelo_OMT-G_final.png Graphic file (type png)
 
 <use data/modelo_OMT-G_final.png>
 Package pdftex.def Info: data/modelo_OMT-G_final.png used on input line 16.
 (pdftex.def)             Requested size: 670.50687pt x 383.51733pt.
  [77] [78 <./data/modelo_OMT-G_final.png>]
-<data/pgAdmin-gui.png, id=315, 469.755pt x 279.9258pt>
+<data/pgAdmin-gui.png, id=317, 469.755pt x 279.9258pt>
 File: data/pgAdmin-gui.png Graphic file (type png)
 
 <use data/pgAdmin-gui.png>
 Package pdftex.def Info: data/pgAdmin-gui.png used on input line 28.
 (pdftex.def)             Requested size: 452.9679pt x 269.92168pt.
 
-<data/newdb_pgadmin.png, id=316, 347.8596pt x 362.3136pt>
+<data/newdb_pgadmin.png, id=318, 347.8596pt x 362.3136pt>
 File: data/newdb_pgadmin.png Graphic file (type png)
 
 <use data/newdb_pgadmin.png>
@@ -1060,7 +1083,7 @@ Overfull \vbox (2.64896pt too high) has occurred while \output is active []
 
 
 [80 <./data/newdb_pgadmin.png>]
-<data/create_extension_postgis.png, id=326, 469.755pt x 313.6518pt>
+<data/create_extension_postgis.png, id=328, 469.755pt x 313.6518pt>
 File: data/create_extension_postgis.png Graphic file (type png)
 
 <use data/create_extension_postgis.png>
@@ -1068,28 +1091,28 @@ Package pdftex.def Info: data/create_extension_postgis.png used on input line 7
 5.
 (pdftex.def)             Requested size: 452.9679pt x 302.44235pt.
 
-<data/shapefile_loader.png, id=327, 394.1124pt x 93.4692pt>
+<data/shapefile_loader.png, id=329, 394.1124pt x 93.4692pt>
 File: data/shapefile_loader.png Graphic file (type png)
 
 <use data/shapefile_loader.png>
 Package pdftex.def Info: data/shapefile_loader.png used on input line 88.
 (pdftex.def)             Requested size: 452.9679pt x 107.43169pt.
  [81 <./data/create_extension_postgis.png>]
-<data/shapefile_loader_gui.png, id=332, 469.755pt x 412.4208pt>
+<data/shapefile_loader_gui.png, id=334, 469.755pt x 412.4208pt>
 File: data/shapefile_loader_gui.png Graphic file (type png)
 
 <use data/shapefile_loader_gui.png>
 Package pdftex.def Info: data/shapefile_loader_gui.png used on input line 103.
 (pdftex.def)             Requested size: 452.9679pt x 397.6815pt.
 
-<data/import_config.png, id=333, 375.804pt x 239.4546pt>
+<data/import_config.png, id=335, 375.804pt x 239.4546pt>
 File: data/import_config.png Graphic file (type png)
 
 <use data/import_config.png>
 Package pdftex.def Info: data/import_config.png used on input line 110.
 (pdftex.def)             Requested size: 452.9679pt x 288.63751pt.
 
-<data/estrutura_opensource.png, id=334, 469.755pt x 273.1806pt>
+<data/estrutura_opensource.png, id=336, 469.755pt x 273.1806pt>
 File: data/estrutura_opensource.png Graphic file (type png)
 
 <use data/estrutura_opensource.png>
@@ -1097,13 +1120,13 @@ Package pdftex.def Info: data/estrutura_opensource.png used on input line 121.
 (pdftex.def)             Requested size: 452.9679pt x 263.41753pt.
  [82 <./data/shapefile_loader.png>] [83 <./data/shapefile_loader_gui.png>] [84 
 <./data/import_config.png> <./data/estrutura_opensource.png>] <data/diagrama.pn
-g, id=348, 452.892pt x 329.0694pt>
+g, id=350, 452.892pt x 329.0694pt>
 File: data/diagrama.png Graphic file (type png)
 
 <use data/diagrama.png>
 Package pdftex.def Info: data/diagrama.png used on input line 132.
 (pdftex.def)             Requested size: 452.9679pt x 329.13383pt.
- <data/qgis_gui.png, id=349, 469.755pt x 276.5532pt>
+ <data/qgis_gui.png, id=351, 469.755pt x 276.5532pt>
 File: data/qgis_gui.png Graphic file (type png)
 
 <use data/qgis_gui.png>
@@ -1117,45 +1140,51 @@ Underfull \vbox (badness 2376) has occurred while \output is active []
 
  [86 <./data/qgis_gui.png>]
 Overfull \hbox (2.46626pt too wide) in paragraph at lines 155--156
-[]\OT1/cmr/m/n/12 Na area ge-o-es-pa-cial, al-gu-mas fer-ra-men-tas im-por-tan
--tes fo-ram de-sen-vol-vi-das nos ultimos
+[]\OT1/cmr/m/n/12 Na ^^Sarea geoes-pa-cial, al-gu-mas fer-ra-men-tas im-por-tan
+tes foram de-sen-volvi-das nos ^^Sultimos
  []
 
-<data/espacoGIS_logo.png, id=359, 468.7914pt x 172.4844pt>
+<data/espacoGIS_logo.png, id=361, 468.7914pt x 172.4844pt>
 File: data/espacoGIS_logo.png Graphic file (type png)
 
 <use data/espacoGIS_logo.png>
 Package pdftex.def Info: data/espacoGIS_logo.png used on input line 165.
 (pdftex.def)             Requested size: 452.9679pt x 166.66484pt.
  [87]
-<data/espacoGIS_gui.png, id=363, 469.755pt x 276.5532pt>
+<data/espacoGIS_gui.png, id=365, 469.755pt x 276.5532pt>
 File: data/espacoGIS_gui.png Graphic file (type png)
 
 <use data/espacoGIS_gui.png>
 Package pdftex.def Info: data/espacoGIS_gui.png used on input line 174.
 (pdftex.def)             Requested size: 362.37569pt x 213.33484pt.
 
-<data/postnet_gui.png, id=364, 469.755pt x 389.2944pt>
+<data/postnet_gui.png, id=366, 469.755pt x 389.2944pt>
 File: data/postnet_gui.png Graphic file (type png)
 
 <use data/postnet_gui.png>
 Package pdftex.def Info: data/postnet_gui.png used on input line 181.
 (pdftex.def)             Requested size: 452.9679pt x 375.3816pt.
- <data/mdi_gui.png, id=365, 468.7914pt x 248.127pt>
+ <data/mdi_gui.png, id=367, 468.7914pt x 248.127pt>
 File: data/mdi_gui.png Graphic file (type png)
 
 <use data/mdi_gui.png>
 Package pdftex.def Info: data/mdi_gui.png used on input line 188.
 (pdftex.def)             Requested size: 452.9679pt x 239.75528pt.
- [88 <./data/espacoGIS_logo.png> <./data/espacoGIS_gui.png>] [89 <./data/postne
-t_gui.png>]
-<data/sig_gui.png, id=375, 469.755pt x 274.626pt>
+
+Overfull \hbox (10.07314pt too wide) in paragraph at lines 193--194
+\OT1/cmr/m/n/12 "Se-le-cionar", "Pan"e "Sal-var Ca-mada"foram im-ple-men-tadas 
+primeira-mente como mostrado
+ []
+
+[88 <./data/espacoGIS_logo.png> <./data/espacoGIS_gui.png>] [89 <./data/postnet
+_gui.png>] <data/sig_gui.png, id=377, 469.755pt x 274.626pt>
 File: data/sig_gui.png Graphic file (type png)
- <use data/sig_gui.png>
+
+<use data/sig_gui.png>
 Package pdftex.def Info: data/sig_gui.png used on input line 201.
 (pdftex.def)             Requested size: 452.9679pt x 264.81128pt.
 
-<data/postgis_config.png, id=376, 315.0972pt x 221.628pt>
+<data/postgis_config.png, id=378, 315.0972pt x 221.628pt>
 File: data/postgis_config.png Graphic file (type png)
 
 <use data/postgis_config.png>
@@ -1166,42 +1195,60 @@ Package pdftex.def Info: data/postgis_config.png used on input line 208.
 Cap\'{\i }tulo 9.
 [92
 
-]) (main.bbl [93] [94
+]) (./main.bbl [93] [94
 
 ] [95]
 Underfull \hbox (badness 10000) in paragraph at lines 201--204
-[]\OT1/cmr/m/n/12 Open Ge-os-pa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Fil-ter E
-n-co-ding.\OT1/cmr/m/n/12 , 2002.
+[]\OT1/cmr/m/n/12 Open Geospa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Fil-ter En-
+cod-ing.\OT1/cmr/m/n/12 , 2002.
  []
 
 
 Underfull \hbox (badness 2903) in paragraph at lines 206--209
-[]\OT1/cmr/m/n/12 Open Ge-os-pa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Ge-o-grap
-hy Mar-kup Lan-guage.\OT1/cmr/m/n/12 , 2002.
+[]\OT1/cmr/m/n/12 Open Geospa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Ge-og-ra-ph
+y Markup Lan-guage.\OT1/cmr/m/n/12 , 2002.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 217--220
-[]\OT1/cmr/m/n/12 Open Ge-os-pa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Web Fe-a-
-ture Ser-vice.\OT1/cmr/m/n/12 , 2002.
+[]\OT1/cmr/m/n/12 Open Geospa-tial Con-sor-tium.  \OT1/cmr/bx/it/12 Web Fea-tur
+e Ser-vice.\OT1/cmr/m/n/12 , 2002.
  []
 
-[96] [97] [98]
+[96] [97]
+Underfull \hbox (badness 1824) in paragraph at lines 399--403
+[]\OT1/cmr/m/n/12 BERTRAND, G.  \OT1/cmr/bx/n/12 Pais-agem e ge-ografia f^^S^^P
+sica global: um esbo^^Xco
+ []
+
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 519--522
-[]\OT1/cmr/m/n/12 IBM.  \OT1/cmr/bx/it/12 In-for-mix Spa-tial.\OT1/cmr/m/n/12 ,
- 2016.  http://www-
+[]\OT1/cmr/m/n/12 IBM.  \OT1/cmr/bx/it/12 In-formix Spa-tial.\OT1/cmr/m/n/12 , 
+2016.  http://www-
  []
 
-[99] [100] [101]
+[99]
+Underfull \hbox (badness 4120) in paragraph at lines 550--554
+[]\OT1/cmr/m/n/12 GARNETT, J.; AIME, A.; DE-O-LIV-ERA, J.  \OT1/cmr/bx/it/12 St
+ate of GeoServer
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--554
+\OT1/cmr/bx/it/12 and GeoTools 2014.\OT1/cmr/m/n/12 , foss4g 2014 port-land edi
+-tion, 2015.
+ []
+
+[100] [101]
 Underfull \hbox (badness 10000) in paragraph at lines 745--750
-[]\OT1/cmr/m/n/12 MALONE, M.  \OT1/cmr/bx/it/12 How Sim-ple-Geo Built a Sca-la-
-ble Ge-os-
+[]\OT1/cmr/m/n/12 MALONE, M.  \OT1/cmr/bx/it/12 How Sim-ple-Geo Built a Scal-ab
+le Geospa-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 745--750
-\OT1/cmr/bx/it/12 pa-tial Da-ta-base with Apa-che Cas-san-dra.\OT1/cmr/m/n/12 ,
- 2012.  http://
+\OT1/cmr/bx/it/12 tial Database with Apache Cas-san-dra.\OT1/cmr/m/n/12 , 2012.
+  http://
  []
 
 
@@ -1212,56 +1259,56 @@ Overfull \hbox (16.266pt too wide) in paragraph at lines 812--816
 
 [102]
 Underfull \hbox (badness 5288) in paragraph at lines 818--822
-[]\OT1/cmr/m/n/12 BAUMANN, P.; DEH-MEN, A.; FUR-TADO, P.; RITSCH, R.; WID-
+[]\OT1/cmr/m/n/12 BAUMANN, P.; DEHMEN, A.; FUR-TADO, P.; RITSCH, R.; WID-
  []
 
 
 Underfull \hbox (badness 5417) in paragraph at lines 818--822
-\OT1/cmr/m/n/12 MANN, N.  \OT1/cmr/bx/it/12 Spatio-Temporal Re-tri-e-val with R
-as-Da-Man.\OT1/cmr/m/n/12 , 1999.
+\OT1/cmr/m/n/12 MANN, N.  \OT1/cmr/bx/it/12 Spatio-Temporal Re-trieval with Ras
+-DaMan.\OT1/cmr/m/n/12 , 1999.
  []
 
 
 Overfull \hbox (243.81143pt too wide) in paragraph at lines 839--843
-[]\OT1/cmr/m/n/12 OPENBAY.  \OT1/cmr/bx/it/12 Open-bay Pro-ject\OT1/cmr/m/n/12 
-, 2015.  https://github.com/isohuntto/openbay/blob/master/src/protected/data/sc
-hema.mysql.sql. 
+[]\OT1/cmr/m/n/12 OPENBAY.  \OT1/cmr/bx/it/12 Open-bay Project\OT1/cmr/m/n/12 ,
+ 2015.  https://github.com/isohuntto/openbay/blob/master/src/protected/data/sch
+ema.mysql.sql. 
  []
 
 
 Underfull \hbox (badness 4467) in paragraph at lines 872--876
-[]\OT1/cmr/m/n/12 HANSEN, P.  \OT1/cmr/bx/it/12 Ge-o-To-ols, Ge-o-Ser-ver, Ge-o
--Git: A Case Study
+[]\OT1/cmr/m/n/12 HANSEN, P.  \OT1/cmr/bx/it/12 GeoTools, GeoServer, Ge-oGit: A
+ Case Study
  []
 
 
 Underfull \hbox (badness 2073) in paragraph at lines 872--876
-\OT1/cmr/bx/it/12 of Use in Uti-lity Fi-eld Work.\OT1/cmr/m/n/12 , foss4g 2014 
-por-tland edi-tion, 2015.
+\OT1/cmr/bx/it/12 of Use in Util-ity Field Work.\OT1/cmr/m/n/12 , foss4g 2014 p
+ort-land edi-tion, 2015.
  []
 
 
 Underfull \hbox (badness 6268) in paragraph at lines 898--901
-[]\OT1/cmr/m/n/12 PMAPPER.  \OT1/cmr/bx/it/12 A Map-Ser-ver PHP/-MapS-cript Fra
--mework.\OT1/cmr/m/n/12 , 2012.
+[]\OT1/cmr/m/n/12 PMAPPER.  \OT1/cmr/bx/it/12 A MapServer PH-P/Map-Script Frame
+-work.\OT1/cmr/m/n/12 , 2012.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 903--906
-[]\OT1/cmr/m/n/12 POSTGIS.  \OT1/cmr/bx/it/12 Using Post-GIS: Buil-ding Ap-pli-
-ca-ti-ons.\OT1/cmr/m/n/12 , 2015.
+[]\OT1/cmr/m/n/12 POSTGIS.  \OT1/cmr/bx/it/12 Us-ing Post-GIS: Build-ing Ap-pli
+-ca-tions.\OT1/cmr/m/n/12 , 2015.
  []
 
 [103]
 Underfull \hbox (badness 1028) in paragraph at lines 994--998
-\OT1/cmr/bx/it/12 Ge-o-Ser-ver And Ge-oWeb-Ca-che.\OT1/cmr/m/n/12 , foss4g 2013
- not-tingham edi-tion, 2013.
+\OT1/cmr/bx/it/12 GeoServer And Ge-oWe-b-Cache.\OT1/cmr/m/n/12 , foss4g 2013 no
+t-ting-ham edi-tion, 2013.
  []
 
 [104] [105]
 Underfull \hbox (badness 10000) in paragraph at lines 1093--1097
-[]\OT1/cmr/m/n/12 TERADATA.  \OT1/cmr/bx/it/12 Te-ra-data Ge-os-pa-tial Fe-a-tu
-re.\OT1/cmr/m/n/12 , 2016.
+[]\OT1/cmr/m/n/12 TERADATA.  \OT1/cmr/bx/it/12 Ter-a-data Geospa-tial Fea-ture.
+\OT1/cmr/m/n/12 , 2016.
  []
 
 
@@ -1269,9 +1316,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1093--1097
 \OT1/cmr/m/n/12 http://br.teradata.com/Resources/Demos/Teradata-Geospatial-
  []
 
-) (apendice.tex [106]
+) (./apendice.tex [106]
 Ap\^endice A.
-<data/postnet_gui_query.png, id=436, 469.755pt x 391.7034pt>
+<data/postnet_gui_query.png, id=439, 469.755pt x 391.7034pt>
 File: data/postnet_gui_query.png Graphic file (type png)
 
 <use data/postnet_gui_query.png>
@@ -1313,28 +1360,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [119])
-[120] (main.aux) ) 
+[120] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 6202 strings out of 493323
- 86416 string characters out of 3139059
- 215867 words of memory out of 3000000
- 9569 multiletter control sequences out of 15000+200000
- 11193 words of font info for 39 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,12n,58p,2252b,1718s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmtt10.pfb>
-Output written on main.pdf (120 pages, 9992964 bytes).
+ 6150 strings out of 494946
+ 85205 string characters out of 6180981
+ 209191 words of memory out of 5000000
+ 9275 multiletter control sequences out of 15000+600000
+ 11193 words of font info for 39 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 42i,12n,58p,2250b,1720s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (120 pages, 11611322 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 297 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

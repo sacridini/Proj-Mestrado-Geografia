@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: referencias.bib
 Repeated entry---line 1186 of file referencias.bib
@@ -12,4 +14,45 @@ Warning--empty publisher in NETELER_MITASOVA
 Warning--there's a number but no volume in BURTON
 Warning--there's a number but no volume in SLUTER
 Warning--there's a number but no volume in SUERTEGARAY_NUNES
+You've used 202 entries,
+            2118 wiz_defined-function locations,
+            1571 strings with 32966 characters,
+and the built_in function-call counts, 48902 in all, are:
+= -- 4876
+> -- 1414
+< -- 20
++ -- 606
+- -- 404
+* -- 2394
+:= -- 8324
+add.period$ -- 600
+call.type$ -- 202
+change.case$ -- 695
+chr.to.int$ -- 0
+cite$ -- 209
+duplicate$ -- 2394
+empty$ -- 4512
+format.name$ -- 404
+if$ -- 10422
+int.to.chr$ -- 0
+int.to.str$ -- 202
+missing$ -- 233
+newline$ -- 1007
+num.names$ -- 404
+pop$ -- 1003
+preamble$ -- 1
+purify$ -- 606
+quote$ -- 0
+skip$ -- 1586
+stack$ -- 0
+substring$ -- 2383
+swap$ -- 456
+text.length$ -- 20
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 632
+warning$ -- 7
+while$ -- 514
+width$ -- 205
+write$ -- 2167
 (There was 1 error message)
